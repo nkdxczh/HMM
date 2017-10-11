@@ -227,7 +227,7 @@ class HMM {
 
         mle();
 
-        max_iters = 1;
+        max_iters = 2;
         for(int iter = 0; iter < max_iters; ++iter){
             //E-step
             for(Sentence s : unlabeled_corpus){
@@ -342,25 +342,19 @@ class HMM {
 	 * \xi_t(i,j) and \xi_t(i) are computed for a sentence
 	 */
 	private double expection(Sentence s) {
-        double PO = forward(s);
-        double beta_scale_log = backward(s);
-        double alpha_scale_log = Math.log(scales.get(0, 0));
+        forward(s);
+        backward(s);
 
         for(int t = 0; t < s.length(); ++t){
 
             int lemme_id = vocabulary.get(s.getWordAt(t).getLemme()).intValue();
 
-            if(t > 0){
-                alpha_scale_log += Math.log(scales.get(0, t));
-                beta_scale_log -= Math.log(scales.get(1, t - 1));
-            }
-
             for(int tag_id = 0; tag_id < num_postags; ++tag_id){
 
-                double alpha_t_i_log = Math.log(alpha.get(tag_id, t)) - alpha_scale_log;
-                double beta_t_j_log = Math.log(beta.get(tag_id, t)) - beta_scale_log;
+                double alpha_t_i = alpha.get(tag_id, t);
+                double beta_t_j = beta.get(tag_id, t);
 
-                double new_gamma_w = Math.exp(alpha_t_i_log + beta_t_j_log - PO);
+                double new_gamma_w = alpha_t_i * beta_t_j;
                 gamma_w.set(tag_id, lemme_id, gamma_w.get(tag_id, lemme_id) + new_gamma_w);
                 gamma.set(0, tag_id, gamma.get(0, tag_id) + new_gamma_w);
                 if(t == 0)gamma_0.set(0, tag_id, gamma_0.get(0, tag_id) + new_gamma_w);
@@ -370,25 +364,27 @@ class HMM {
                 if(t < s.length() - 1) {
                     int post_lemme_id = vocabulary.get(s.getWordAt(t + 1).getLemme()).intValue();
                     for (int post_tag_id = 0; post_tag_id < num_postags; ++post_tag_id) {
-                        double alpha_t_i_log = Math.log(alpha.get(tag_id, t)) - alpha_scale_log;
-                        double beta_t1_j_log = Math.log(beta.get(post_tag_id, t + 1)) - beta_scale_log;
 
-                        double a_i_j_log = Math.log(A.get(tag_id, post_tag_id));
-                        double b_j_t1_log = Math.log(B.get(post_tag_id, post_lemme_id));
+                        double alpha_t_i = alpha.get(tag_id, t);
+                        double beta_t1_j = beta.get(post_tag_id, t + 1);
 
-                        double inc_digamma = Math.exp(alpha_t_i_log + a_i_j_log + b_j_t1_log + beta_t1_j_log - PO);
+                        double a_i_j = A.get(tag_id, post_tag_id);
+                        double b_j_t1 = B.get(post_tag_id, post_lemme_id);
+
+                        double inc_digamma = alpha_t_i * a_i_j * b_j_t1 * beta_t1_j;
 
                         digamma.set(tag_id, post_tag_id, digamma.get(tag_id, post_tag_id) + inc_digamma);
                     }
                 }
                 else{
-                    double alpha_t_i_log = Math.log(alpha.get(tag_id, t)) - alpha_scale_log;
-                    double beta_t1_j_log = 0;
 
-                    double a_i_j_log = Math.log(A.get(tag_id, num_postags));
-                    double b_j_t1_log = 0;
+                    double alpha_t_i = alpha.get(tag_id, t);
+                    double beta_t1_j = 1;
 
-                    double inc_digamma = Math.exp(alpha_t_i_log + a_i_j_log + b_j_t1_log + beta_t1_j_log - PO);
+                    double a_i_j = A.get(tag_id, num_postags);
+                    double b_j_t1 = 1;
+
+                    double inc_digamma = alpha_t_i * a_i_j * b_j_t1 * beta_t1_j;
 
                     digamma.set(tag_id, num_postags, digamma.get(tag_id, num_postags) + inc_digamma);
                 }

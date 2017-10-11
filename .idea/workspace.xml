@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee004076-a2be-4b95-a027-7194e3c8732e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/HMM.class" afterPath="$PROJECT_DIR$/bin/HMM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p1/prediction.txt" afterPath="$PROJECT_DIR$/results/p1/prediction.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p1/training_log.txt" afterPath="$PROJECT_DIR$/results/p1/training_log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HMM.java" afterPath="$PROJECT_DIR$/src/HMM.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +20,8 @@
       <file leaf-file-name="HMM.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HMM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="488" column="35" lean-forward="true" selection-start-line="488" selection-start-column="35" selection-end-line="488" selection-end-column="35" />
+            <state relative-caret-position="696">
+              <caret line="229" column="21" lean-forward="false" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -330,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HMM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="488" column="35" lean-forward="true" selection-start-line="488" selection-start-column="35" selection-end-line="488" selection-end-column="35" />
+        <state relative-caret-position="696">
+          <caret line="229" column="21" lean-forward="false" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
