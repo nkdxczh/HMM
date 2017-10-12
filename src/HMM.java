@@ -81,6 +81,7 @@ class HMM {
 	
 	// record the changes in log likelihood during EM
 	private double[] log_likelihood = new double[max_iters];
+	private double[] accuracy = new double[max_iters];
 	
 	/**
 	 * Constructor with input corpora.
@@ -227,6 +228,7 @@ class HMM {
 
         mle();
 
+        max_iters = 10;
         for(int iter = 0; iter < max_iters; ++iter){
             //E-step
             log_likelihood[iter] = 0;
@@ -236,7 +238,10 @@ class HMM {
             }
 
             //M-step
-            if(iter == 0)maximization();
+            maximization();
+
+            double acc = predict();
+            accuracy[iter] = acc;
         }
 	}
 	
@@ -244,23 +249,29 @@ class HMM {
 	 * Prediction
 	 * Find the most likely pos tag for each word of the sentences in the unlabeled corpus.
 	 */
-	public void predict() {
+	public double predict() {
         v = new Matrix(new double[num_postags][max_sentence_length]);
         back_pointer = new Matrix(new double[num_postags][max_sentence_length]);
         pred_seq = new Matrix(new double[unlabeled_corpus.size()][max_sentence_length]);
+        int correct = 0;
+        int all = 0;
 
         for(int i = 0; i < unlabeled_corpus.size(); ++i){
             Sentence s = unlabeled_corpus.get(i);
+            all += s.length();
             int index = (int)viterbi(s);
 
             int k = s.length() - 1;
             while(k >= 0){
                 pred_seq.set(i, k, index);
+                if(index == pos_tags.get(s.getWordAt(k).getPosTag()).intValue())correct++;
                 index = (int)back_pointer.get(index, k);
                 --k;
             }
 
         }
+
+        return (double)correct/all;
 	}
 	
 	/**
@@ -294,8 +305,18 @@ class HMM {
         BufferedWriter bw = new BufferedWriter(fw);
 
         for(int i = 0; i < max_iters; ++i){
-            bw.write(log_likelihood[i] + "\n");
+            bw.write(log_likelihood[i] + " " + accuracy[i]+"\n");
         }
+
+        /*bw.write("\nA\n");
+        for(int i = 0; i < num_postags; ++i){
+            double sum = 0;
+            for(int j = 0; j < num_postags; ++j){
+                sum += A.get(i,j);
+                bw.write(A.get(i,j) + "\t");
+            }
+            bw.write("\n--------------"+sum+"-----------------\n");
+        }*/
 
         bw.close();
         fw.close();
@@ -374,8 +395,12 @@ class HMM {
                 digamma.set(i, j, 0);
             }
 
+            scale = 0;
             for(int j = 0; j < num_words; ++j){
-                B.set(i, j, gamma_w.get(i, j) / gamma.get(0, i));
+                scale += gamma_w.get(i, j);
+            }
+            for(int j = 0; j < num_words; ++j){
+                B.set(i, j, gamma_w.get(i, j) / scale);
                 gamma_w.set(i, j, 0);
             }
 
