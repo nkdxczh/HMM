@@ -240,8 +240,8 @@ class HMM {
             //M-step
             maximization();
 
-            double acc = predict();
-            accuracy[iter] = acc;
+            //double acc = predict();
+            //accuracy[iter] = acc;
         }
 	}
 	
@@ -305,7 +305,8 @@ class HMM {
         BufferedWriter bw = new BufferedWriter(fw);
 
         for(int i = 0; i < max_iters; ++i){
-            bw.write(log_likelihood[i] + " " + accuracy[i]+"\n");
+            //bw.write(log_likelihood[i] + " " + accuracy[i]+"\n");
+            bw.write(log_likelihood[i] + "\n");
         }
 
         /*bw.write("\nA\n");
