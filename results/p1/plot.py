@@ -8,6 +8,5 @@ logs = f.read().split()
 x = [i for i in range(len(logs))]
 y = [float(i) for i in logs]
 
-plt.plot(x,y,'--')
-plt.legend(loc='best')
+plt.plot(x,y,'*', x, y,'-')
 plt.show()
