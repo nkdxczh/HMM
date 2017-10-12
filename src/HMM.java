@@ -227,11 +227,12 @@ class HMM {
 
         mle();
 
-        max_iters = 2;
         for(int iter = 0; iter < max_iters; ++iter){
             //E-step
+            log_likelihood[iter] = 0;
             for(Sentence s : unlabeled_corpus){
-                expection(s);
+                double PO = expection(s);
+                log_likelihood[iter] += PO;
             }
 
             //M-step
@@ -292,47 +293,10 @@ class HMM {
         FileWriter fw = new FileWriter(outFileName);
         BufferedWriter bw = new BufferedWriter(fw);
 
-        bw.write("\ntag\n");
-        for(int i = 0; i < num_postags; ++i){
-            bw.write(inv_pos_tags.get(i) + "," + i + "\t");
+        for(int i = 0; i < max_iters; ++i){
+            bw.write(log_likelihood[i] + "\n");
         }
 
-        bw.write("\npi\n");
-        for(int i = 0; i < 1; ++i){
-            for(int j = 0; j < num_postags; ++j)
-                bw.write(pi.get(i,j) + "," + j + "\t");
-            bw.write(i + "--------------------------------------------\n\n");
-        }
-
-
-        bw.write("\nalpah\n");
-        for(int i = 0; i < num_postags; ++i){
-            for(int j = 0; j < max_sentence_length; ++j)
-                bw.write(alpha.get(i,j) + "\t");
-            bw.write(i + "--------------------------------------------\n\n");
-        }
-
-        bw.write("\nbeta\n");
-        for(int i = 0; i < num_postags; ++i){
-            for(int j = 0; j < max_sentence_length; ++j)
-                bw.write(beta.get(i,j) + "\t");
-            bw.write(i + "--------------------------------------------\n\n");
-        }
-
-
-        bw.write("\nA\n");
-        for(int i = 0; i < num_postags; ++i){
-            for(int j = 0; j < num_postags + 1; ++j)
-                bw.write(A.get(i,j) + "\t");
-            bw.write(i + "--------------------------------------------\n\n");
-        }
-
-        /*bw.write("\nback\n");
-        for(int i = 0; i < num_postags; ++i){
-            for(int j = 0; j < max_sentence_length; ++j)
-                bw.write(back_pointer.get(i,j) + "\t");
-            bw.write("\n");
-        }*/
         bw.close();
         fw.close();
 	}
@@ -342,8 +306,8 @@ class HMM {
 	 * \xi_t(i,j) and \xi_t(i) are computed for a sentence
 	 */
 	private double expection(Sentence s) {
-        forward(s);
-        backward(s);
+        double PO = forward(s);
+        double PO1 = backward(s);
 
         for(int t = 0; t < s.length(); ++t){
 
@@ -391,7 +355,7 @@ class HMM {
             }
         }
 
-        return 0;
+        return PO;
 	}
 
 	/**
@@ -463,7 +427,7 @@ class HMM {
 
         double res = 0;
         for(int i = 0; i < s.length(); ++i)
-            res += Math.log(scales.get(0, i));
+            res += Math.log(1 / scales.get(0, i));
         return res;
 	}
 
@@ -501,7 +465,7 @@ class HMM {
 
         double res = 0;
         for(int i = 0; i < s.length(); ++i)
-            res += Math.log(scales.get(1, i));
+            res += Math.log(1 / scales.get(1, i));
         return res;
 	}
 
@@ -533,9 +497,9 @@ class HMM {
         int res = 0;
         double Max = Double.NEGATIVE_INFINITY;
         for(int i = 0; i < num_postags; ++i) {
-            if(v.get(i, s.length() - 1) + Math.log(A.get(i, num_postags))  > Max){
+            if(Math.log(A.get(i, num_postags))  > Max){
                 res = i;
-                Max = v.get(i, s.length() - 1) + Math.log(A.get(i, num_postags));
+                Max = Math.log(A.get(i, num_postags));
             }
         }
 

@@ -2323,7 +2323,7 @@ a DT
 real JJ
 problem NN
 . .
-'' ''
+'' .
 
 Mr. NNP
 Mark NNP
@@ -2392,7 +2392,7 @@ in IN
 the DT
 company NN
 . .
-'' ''
+'' .
 
 To TO
 focus VB
@@ -2511,7 +2511,7 @@ easier VBP
 to TO
 read VB
 . .
-'' ''
+'' .
 
 Maybe SYM
 so FW
@@ -2691,7 +2691,7 @@ in IN
 our PRP$
 lifetime NN
 . .
-'' ''
+'' .
 
 Mr. NNP
 Barnicle POS
@@ -2821,7 +2821,7 @@ sees VBZ
 a DT
 newspaper NN
 . .
-'' ''
+'' .
 
 Lynn SYM
 Staley FW
@@ -2850,7 +2850,7 @@ the DT
 likeness $
 spectrum CD
 . .
-'' ''
+'' .
 
 Rival SYM
 Boston FW
@@ -3171,7 +3171,7 @@ Tomkin FW
 Astronomy FW
 Department NNP
 University NNP
-of IN
+of .
 
 The DT
 Internal NNP
@@ -3372,7 +3372,7 @@ $ $
 billion CD
 properly CD
 . .
-'' ''
+'' .
 
 Mr. NNP
 Goldberg NNP
@@ -4278,7 +4278,7 @@ art NN
 of IN
 survival NN
 . .
-'' ''
+'' .
 
 In IN
 keeping VBG
@@ -4493,7 +4493,7 @@ any DT
 other JJ
 option NN
 . .
-'' ''
+'' .
 
 His PRP$
 chief JJ
@@ -5077,7 +5077,7 @@ him PRP
 gain MD
 power VB
 . .
-'' ''
+'' .
 
 A DT
 National NNP
@@ -5283,7 +5283,7 @@ and CC
 blackmailing PRP$
 people NNS
 . .
-'' ''
+'' .
 
 During IN
 his PRP$
@@ -5491,7 +5491,7 @@ intelligence NN
 for IN
 officers PRP
 . .
-'' ''
+'' .
 
 Some DT
 American JJ
@@ -5718,7 +5718,7 @@ to TO
 the DT
 Cubans NN
 . .
-'' ''
+'' .
 
 Even SYM
 at IN
@@ -5999,7 +5999,7 @@ can MD
 extort VB
 you PRP
 . .
-'' ''
+'' .
 
 Intelligence WP$
 officials NNS
@@ -6520,7 +6520,7 @@ have VBP
 no DT
 control NN
 . .
-'' ''
+'' .
 
 The DT
 letter NN
@@ -6592,7 +6592,7 @@ have VB
 stopped WRB
 him PRP
 . .
-'' ''
+'' .
 
 In IN
 August $
@@ -7069,7 +7069,7 @@ sound ,
 and CC
 video NN
 . .
-'' ''
+'' .
 
 Mr. NNP
 Briggs POS
@@ -7343,7 +7343,7 @@ Panamanian JJ
 Defense NNP
 Forces NNPS
 . .
-'' ''
+'' .
 
 `` ``
 North UH
@@ -7412,7 +7412,7 @@ a DT
 Sandinista $
 arsenal CD
 . .
-'' ''
+'' .
 
 Col. SYM
 North NNP
@@ -8206,7 +8206,7 @@ of IN
 that DT
 yet RB
 . .
-'' ''
+'' .
 
 A DT
 decline NN
@@ -8775,7 +8775,7 @@ in IN
 the DT
 future NN
 . .
-'' ''
+'' .
 
 However RB
 , ,
@@ -8842,7 +8842,7 @@ adolescents ''
 and CC
 minorities JJR
 . .
-'' ''
+'' .
 
 An DT
 editorial NN
@@ -8900,8 +8900,8 @@ addictive JJ
 habit NN
 of IN
 smoking DT
-. .
-'' ''
+. NN
+'' .
 
 But CC
 the DT
@@ -9237,7 +9237,7 @@ on IN
 our PRP$
 business NN
 . .
-'' ''
+'' .
 
 Mr. NNP
 Womack POS
@@ -9531,7 +9531,7 @@ a DT
 tough JJ
 market NN
 . .
-'' ''
+'' .
 
 Mr. NNP
 Zipper ,
@@ -9623,8 +9623,8 @@ They PRP
 just RB
 as IN
 confused DT
-. .
-'' ''
+. NN
+'' .
 
 William SYM
 Rothe FW
@@ -10528,7 +10528,7 @@ book JJS
 Silent EX
 Spring VBZ
 . .
-'' ''
+'' .
 
 Shortly SYM
 thereafter FW
@@ -10840,9 +10840,9 @@ Environment CD
 : :
 Are ``
 We PRP
-Overreacting VBZ
-? .
-'' ''
+Overreacting MD
+? VB
+'' .
 
 First NNP
 and CC
@@ -12528,8 +12528,8 @@ the DT
 schedule NN
 by IN
 mid-season DT
-. .
-'' ''
+. NN
+'' .
 
 He PRP
 declined VBD
@@ -12663,7 +12663,7 @@ station NN
 total JJ
 revenues NNS
 . .
-'' ''
+'' .
 
 An DT
 NBC NNP
@@ -12855,7 +12855,7 @@ By IN
 The DT
 Bell NNP
 . .
-'' ''
+'' .
 
 NBC NNP
 Productions ,
@@ -13304,7 +13304,7 @@ Using $
 Two CD
 Drugs CD
 . .
-'' ''
+'' .
 
 In IN
 this DT
@@ -13337,7 +13337,7 @@ getting VBG
 this DT
 therapy NN
 . .
-'' ''
+'' .
 
 I PRP
 did VBD
@@ -13534,7 +13534,7 @@ offered VBD
 this DT
 opportunity NN
 . .
-'' ''
+'' .
 
 We PRP
 have VBP
@@ -13947,7 +13947,7 @@ up IN
 the DT
 air NN
 . .
-'' ''
+'' .
 
 But CC
 David NNP
@@ -14462,7 +14462,7 @@ including VBG
 fraud PRP$
 actions NNS
 . .
-'' ''
+'' .
 
 Mr. NNP
 Keating POS
@@ -14524,7 +14524,7 @@ the DT
 appropriate JJ
 time NN
 . .
-'' ''
+'' .
 
 Lincoln NNP
 's POS
@@ -14656,7 +14656,7 @@ on IN
 the DT
 line NN
 . .
-'' ''
+'' .
 
 Senate NNP
 Banking NNP
@@ -14968,7 +14968,7 @@ financially :
 overly EX
 optimistic VBZ
 . .
-'' ''
+'' .
 
 Asked SYM
 about IN
@@ -14986,7 +14986,7 @@ we PRP
 totally MD
 disagree VB
 . .
-'' ''
+'' .
 
 She PRP
 said VBD
@@ -15006,7 +15006,7 @@ analysis NN
 completely SYM
 off-base FW
 . .
-'' ''
+'' .
 
 At IN
 a DT
@@ -15699,7 +15699,7 @@ talks WDT
 come VB
 along RB
 . .
-'' ''
+'' .
 
 However RB
 , ,
@@ -15729,7 +15729,7 @@ by IN
 the DT
 court NN
 . .
-'' ''
+'' .
 
 Under IN
 bankruptcy DT
@@ -16110,7 +16110,7 @@ calculations VBZ
 to TO
 do VB
 . .
-'' ''
+'' .
 
 But CC
 Congress NNP
@@ -16790,7 +16790,7 @@ $ $
 Brown NNP
 's POS
 story NN
-: :
+: .
 
 The DT
 deposits NNS
@@ -16897,8 +16897,8 @@ its PRP$
 claims NNS
 . .
 
-BRIEFS EX
-: :
+BRIEFS NNS
+: .
 
 Asked ``
 how WRB
@@ -17080,9 +17080,9 @@ what WP
 it PRP
 's VBZ
 all DT
-about RB
-. .
-'' ''
+about $
+. CD
+'' .
 
 Twelve SYM
 hundred FW
@@ -18147,7 +18147,7 @@ we PRP
 making VBG
 progress NN
 . .
-'' ''
+'' .
 
 Few PRP
 would MD
@@ -18474,7 +18474,7 @@ Securities NNP
 and CC
 Exchange NNP
 Commission NNP
-: :
+: .
 
 Canada NNP
 's POS
@@ -19284,7 +19284,7 @@ Homeowner NN
 's POS
 Guide JJS
 . .
-'' ''
+'' .
 
 Other SYM
 programs FW
@@ -19407,7 +19407,7 @@ Bruce FW
 Kafaroff FW
 . .
 
-Daffynition :
+Daffynition .
 
 Repression SYM
 : IN
@@ -19993,7 +19993,7 @@ grew VBD
 % NN
 . .
 
-Citicorp NNP
+Citicorp .
 
 Analysts PRP
 were VBD
@@ -20162,7 +20162,7 @@ itself ,
 substantially DT
 current JJ
 . .
-'' ''
+'' .
 
 Overall UH
 , ,
@@ -20275,7 +20275,7 @@ taxes DT
 `` ``
 strong JJ
 . .
-'' ''
+'' .
 
 A DT
 `` ``
@@ -20872,8 +20872,8 @@ $ $
 million CD
 . .
 
-PNC SYM
-Financial NNP
+PNC UH
+Financial .
 
 PNC SYM
 Financial NNP
@@ -21171,7 +21171,7 @@ house NN
 is VBZ
 appointed VBN
 . .
--RRB- )
+-RRB- .
 
 The DT
 elections NNS
@@ -21385,7 +21385,7 @@ an DT
 administrative JJ
 failure NN
 . .
-'' ''
+'' .
 
 Even SYM
 if IN
@@ -22117,7 +22117,7 @@ to TO
 forget VB
 it PRP
 . .
-'' ''
+'' .
 
 The DT
 greatest JJS
@@ -22202,7 +22202,7 @@ March #
 24 CD
 , ,
 1986 CD
-: :
+: .
 
 AB SYM
 Bofors FW
@@ -22272,7 +22272,7 @@ April #
 16 CD
 , ,
 1987 CD
-: :
+: .
 
 Swedish SYM
 National NNP
@@ -22306,7 +22306,7 @@ June #
 1 CD
 , ,
 1987 CD
-: :
+: .
 
 Sweden NNP
 's POS
@@ -22387,7 +22387,7 @@ Aug. #
 6 CD
 , ,
 1987 CD
-: :
+: .
 
 Prime SYM
 Minister FW
@@ -22421,13 +22421,13 @@ is VBZ
 the DT
 truth NN
 . .
-'' ''
+'' .
 
 Aug. #
 26 CD
 , ,
 1987 CD
-: :
+: .
 
 Bofors SYM
 admits FW
@@ -22444,7 +22444,7 @@ April #
 22 CD
 , ,
 1988 CD
-: :
+: .
 
 The DT
 Hindu JJ
@@ -22480,7 +22480,7 @@ April #
 26 CD
 , ,
 1988 CD
-: :
+: .
 
 A DT
 parliamentary JJ
@@ -22517,8 +22517,8 @@ company NN
 July #
 18 CD
 , ,
-1989 WDT
-: :
+1989 CD
+: .
 
 The DT
 comptroller NN
@@ -22546,8 +22546,8 @@ deal NN
 Sept. #
 15 CD
 , ,
-1989 WDT
-: :
+1989 CD
+: .
 
 Retired SYM
 army FW
@@ -22609,10 +22609,10 @@ the DT
 government NN
 . .
 
-Oct. NNP
-9. POS
-1989 JJS
-: :
+Oct. DT
+9. $
+1989 CD
+: .
 
 The DT
 Hindu JJ
@@ -23027,7 +23027,7 @@ was VBD
 a DT
 disappointment NN
 . .
-'' ''
+'' .
 
 Meanwhile UH
 , ,
@@ -24124,7 +24124,7 @@ percentage NN
 points NNS
 . .
 
-Municipals :
+Municipals .
 
 Confusion SYM
 over IN
@@ -26041,7 +26041,7 @@ to TO
 sell VB
 gold NN
 . .
-'' ''
+'' .
 
 Also UH
 , ,
@@ -26084,7 +26084,7 @@ precious JJ
 metals NNS
 attractive VBP
 . .
-'' ''
+'' .
 
 Jeffrey SYM
 Nichols FW
@@ -26224,7 +26224,7 @@ want VBP
 to TO
 repeat VB
 . .
-'' ''
+'' .
 
 At IN
 the DT
@@ -26268,9 +26268,9 @@ having DT
 much JJ
 impact NN
 on IN
-gold NN
-. .
-'' ''
+gold DT
+. NN
+'' .
 
 Dinsa SYM
 Mehta FW
@@ -26352,7 +26352,7 @@ gold NN
 traders WDT
 handcuffed VBP
 . .
-'' ''
+'' .
 
 The DT
 most RBS
@@ -26530,10 +26530,10 @@ other DT
 commodity NN
 markets POS
 yesterday NN
-: :
+: .
 
-ENERGY EX
-: :
+ENERGY NNP
+: .
 
 Crude SYM
 oil FW
@@ -26637,8 +26637,8 @@ slipped VBD
 slightly RB
 . .
 
-SUGAR EX
-: :
+SUGAR NNP
+: .
 
 Futures ``
 prices PRP
@@ -26804,7 +26804,7 @@ said VBD
 LIVESTOCK SYM
 AND FW
 MEATS FW
-: :
+: .
 
 The DT
 prices NNS
@@ -26887,7 +26887,7 @@ beef RB
 GRAINS SYM
 AND FW
 SOYBEANS FW
-: :
+: .
 
 The DT
 prices NNS
@@ -27180,7 +27180,7 @@ of IN
 the DT
 elephant NN
 . .
-'' ''
+'' .
 
 Legitimate SYM
 ranchers FW
@@ -27320,7 +27320,7 @@ thing NN
 about IN
 Africa NNP
 . .
-'' ''
+'' .
 
 That EX
 's VBZ
@@ -27802,7 +27802,7 @@ advocate NN
 JUMPING SYM
 THE FW
 GUN FW
-: :
+: .
 
 Sen. SYM
 Lloyd FW
@@ -27890,11 +27890,11 @@ a DT
 timing JJ
 mistake NN
 . .
-'' ''
+'' .
 
 PRISON-SHOP SYM
 BLUES FW
-: :
+: .
 
 Sen. SYM
 Strom FW
@@ -28190,7 +28190,7 @@ business NN
 
 SMALL SYM
 TALK FW
-: :
+: .
 
 Some DT
 70 JJ
@@ -28379,9 +28379,9 @@ One CD
 `` ``
 is VBZ
 considered VBN
-completed VBN
-. .
-'' ''
+completed TO
+. VB
+'' .
 
 Mr. NNP
 McKinney ,
@@ -28623,7 +28623,7 @@ basic DT
 business NN
 operations NNS
 . .
-'' ''
+'' .
 
 A DT
 Beatrice JJ
@@ -28715,7 +28715,7 @@ Soviets NN
 ' POS
 Vietnam NNP
 . .
-'' ''
+'' .
 
 The DT
 Kabul ``
@@ -30171,7 +30171,7 @@ the DT
 water NN
 ? .
 ' ''
-'' ''
+'' .
 
 It PRP
 is VBZ
@@ -30383,7 +30383,7 @@ he PRP
 your PRP$
 father NN
 . .
-'' ''
+'' .
 
 Mr. NNP
 Burton NNP
@@ -30943,7 +30943,7 @@ program NN
 strain SYM
 credulity FW
 . .
-'' ''
+'' .
 
 Still UH
 , ,
@@ -31379,7 +31379,7 @@ and CC
 unnecessarily $
 inflammatory CD
 . .
-'' ''
+'' .
 
 Commissioner SYM
 Mary FW
@@ -31403,7 +31403,7 @@ who WP
 is VBZ
 chairman NN
 . .
-'' ''
+'' .
 
 Rep. SYM
 Don NNP
@@ -31431,7 +31431,7 @@ commission NN
 's POS
 jurisdiction JJS
 . .
-'' ''
+'' .
 
 Thomas SYM
 Stoddard FW
@@ -31454,7 +31454,7 @@ speech NN
 frankly EX
 shocking VBZ
 . .
-'' ''
+'' .
 
 We PRP
 've VBP
@@ -31526,7 +31526,7 @@ the DT
 opposite JJ
 view NN
 . .
-'' ''
+'' .
 
 He PRP
 recalled VBD
@@ -31598,8 +31598,8 @@ charity NN
 , ,
 of IN
 humaneness DT
-. .
-'' ''
+. NN
+'' .
 
 Rights SYM
 on IN
@@ -31691,7 +31691,7 @@ destiny NN
 as IN
 Americans NNPS
 . .
-'' ''
+'' .
 
 Instead SYM
 of IN
@@ -31732,7 +31732,7 @@ with IN
 government DT
 complicity NN
 . .
-'' ''
+'' .
 
 This ``
 hardly EX
@@ -32355,7 +32355,7 @@ at IN
 the DT
 last JJ
 show NN
-in IN
+in .
 
 Japanese SYM
 air-conditioner FW
@@ -32440,7 +32440,7 @@ trust NN
 in IN
 Japan NNP
 . .
-'' ''
+'' .
 
 Sale SYM
 of IN
@@ -32518,7 +32518,7 @@ the DT
 Soviet JJ
 federation NNS
 . .
-'' ''
+'' .
 
 The DT
 committee NN
@@ -32959,7 +32959,7 @@ be VB
 fair DT
 competition NN
 . .
-'' ''
+'' .
 
 Ending SYM
 tax-free FW
@@ -33274,8 +33274,8 @@ to TO
 base VB
 optimism RP
 on IN
-. .
-'' ''
+. FW
+'' .
 
 Alex SYM
 Henderson FW
@@ -33597,7 +33597,7 @@ for IN
 a DT
 while NN
 . .
-'' ''
+'' .
 
 There EX
 are VBP
@@ -33734,7 +33734,7 @@ at IN
 same DT
 time NN
 . .
-'' ''
+'' .
 
 And CC
 that DT
@@ -33822,9 +33822,9 @@ quoted PRP$
 prices NNS
 without IN
 paying DT
-up RB
-. .
-'' ''
+up $
+. CD
+'' .
 
 And CC
 when WRB
@@ -34376,7 +34376,7 @@ get VBP
 is DT
 risk NN
 . .
-'' ''
+'' .
 
 Lack SYM
 of IN
@@ -34389,7 +34389,7 @@ exchange DT
 `` ``
 reforms PRP
 . .
-'' ''
+'' .
 
 Many ``
 traders MD
@@ -34486,8 +34486,8 @@ get VB
 their PRP$
 trades NNS
 off IN
-. .
-'' ''
+. FW
+'' .
 
 `` ``
 It PRP
@@ -34538,7 +34538,7 @@ are VBP
 locked RB
 . .
 ' ''
-'' ''
+'' .
 
 The DT
 takeover NN
@@ -34665,7 +34665,7 @@ all PDT
 that DT
 much JJ
 . .
-'' ''
+'' .
 
 Some DT
 experts NNS
@@ -34778,7 +34778,7 @@ historically DT
 low JJ
 levels NNS
 . .
-'' ''
+'' .
 
 Some DT
 people NNS
@@ -34838,7 +34838,7 @@ or CC
 40 PRP$
 years NNS
 . .
-'' ''
+'' .
 
 But CC
 the DT
@@ -34918,7 +34918,7 @@ to TO
 sell VB
 . .
 ' ''
-'' ''
+'' .
 
 Some DT
 people NNS
@@ -34957,9 +34957,9 @@ than IN
 the DT
 fetish RBS
 of IN
-liquidity NN
-. .
-'' ''
+liquidity DT
+. NN
+'' .
 
 It PRP
 leads VBZ
@@ -35132,7 +35132,7 @@ for IN
 real JJ
 data NNS
 . .
-'' ''
+'' .
 
 He PRP
 estimated VBD
@@ -35424,7 +35424,7 @@ prepare VB
 for IN
 war NN
 . .
-'' ''
+'' .
 
 In IN
 addition NN
@@ -35465,7 +35465,7 @@ the DT
 bats $
 tonight CD
 . .
-'' ''
+'' .
 
 The DT
 worm ,
@@ -36350,7 +36350,7 @@ a DT
 good JJ
 nose NN
 . .
-'' ''
+'' .
 
 The DT
 illegal JJ
@@ -36390,8 +36390,8 @@ same JJ
 issues NNS
 would MD
 have VB
-surfaced DT
-: :
+surfaced JJR
+: .
 
 Was ``
 there EX
@@ -37033,7 +37033,7 @@ of IN
 honest PRP$
 services NNS
 . .
-'' ''
+'' .
 
 At IN
 a DT
@@ -38032,7 +38032,7 @@ positions NNS
 in IN
 futures NNS
 . .
--RRB- )
+-RRB- .
 
 Traders PRP
 said VBD
@@ -38551,7 +38551,7 @@ they PRP
 take VB
 it PRP
 . .
-'' ''
+'' .
 
 Compaq NNP
 Computer POS
@@ -39034,7 +39034,7 @@ a DT
 going JJ
 concern NN
 . .
-'' ''
+'' .
 
 Mission SYM
 Resource FW
@@ -39300,7 +39300,7 @@ the DT
 stock NN
 market NN
 . .
-'' ''
+'' .
 
 Some DT
 bankers NNS
@@ -39389,7 +39389,7 @@ playing RP
 in IN
 the DT
 street NN
-... :
+... .
 
 the DT
 Dow NNP
@@ -41303,8 +41303,8 @@ any DT
 relationship NN
 to TO
 that DT
-. .
-'' ''
+. NN
+'' .
 
 He PRP
 added VBD
@@ -41609,7 +41609,7 @@ demands ,
 grossly EX
 excessive VBZ
 . .
-'' ''
+'' .
 
 Later UH
 , ,
@@ -41752,7 +41752,7 @@ members NNS
 will MD
 reject VB
 . .
-'' ''
+'' .
 
 Machinists ``
 already PRP
@@ -42128,7 +42128,7 @@ slow DT
 economic JJ
 growth NN
 . .
-'' ''
+'' .
 
 It PRP
 contends VBZ
@@ -42156,7 +42156,7 @@ sex DT
 `` ``
 safe PRP
 . .
-'' ''
+'' .
 
 But CC
 the DT
@@ -42420,7 +42420,7 @@ of IN
 the DT
 data NNS
 . .
-'' ''
+'' .
 
 The DT
 U.S. NNP
@@ -42580,7 +42580,7 @@ as IN
 `` ``
 bewildering PRP
 . .
-'' ''
+'' .
 
 In IN
 late DT
@@ -43338,7 +43338,7 @@ sets DT
 in IN
 use NN
 . .
--RRB- )
+-RRB- .
 
 The DT
 first $
@@ -43385,7 +43385,7 @@ ABC NNP
 `` ``
 Roseanne PRP
 . .
-'' ''
+'' .
 
 NBC NNP
 had VBD
@@ -43937,8 +43937,8 @@ other JJ
 women NNS
 . .
 
-NEWSPAPERS EX
-: :
+NEWSPAPERS NNP
+: .
 
 Media SYM
 General NNP
@@ -44382,8 +44382,8 @@ demonstrated ,
 that WDT
 you PRP
 can MD
-. .
-'' ''
+. VB
+'' .
 
 He PRP
 said VBD
@@ -44800,7 +44800,7 @@ in IN
 the DT
 corresponding JJ
 period NN
-of IN
+of .
 
 Operating ``
 profit PRP
@@ -45130,7 +45130,7 @@ and CC
 the DT
 Fed NNP
 . .
-'' ''
+'' .
 
 Fed SYM
 Chairman FW
@@ -45582,7 +45582,7 @@ in IN
 personal PRP$
 cars NNS
 . .
-'' ''
+'' .
 
 Roberto SYM
 Morelli FW
@@ -45989,10 +45989,10 @@ one-fourth RBS
 of IN
 its PRP$
 shares NNS
-owned VBP
-there RB
-. .
--RRB- )
+owned ,
+there EX
+. VBZ
+-RRB- .
 
 Jaguar SYM
 topped IN
@@ -46156,7 +46156,7 @@ hard JJ
 to TO
 swallow VB
 . .
-'' ''
+'' .
 
 But CC
 a DT
@@ -46337,7 +46337,7 @@ Jaguar NNP
 very DT
 much JJ
 . .
-'' ''
+'' .
 
 U.S. NNP
 takeover-stock POS
@@ -46395,7 +46395,7 @@ determined DT
 international JJ
 companies NNS
 . .
-'' ''
+'' .
 
 He PRP
 believes VBZ
@@ -46654,9 +46654,9 @@ Jaguar NNP
 OTC DT
 ; $
 Symbol CD
-: ,
-JAGRY WP
--RRB- )
+: :
+JAGRY CD
+-RRB- .
 
 Business SYM
 : FW
@@ -46669,13 +46669,13 @@ Dec. $
 31 CD
 , ,
 1988 CD
-: :
+: .
 
 Revenue NNP
 : :
 $ $
 1.71 CD
-billion CD
+billion .
 
 Net DT
 income NN
@@ -46688,7 +46688,7 @@ or CC
 25 CD
 cents ,
 a DT
-share NN
+share .
 
 First NNP
 half ,
@@ -46697,8 +46697,8 @@ ended VBD
 June $
 30 CD
 , ,
-1989 WDT
-: :
+1989 CD
+: .
 
 Net SYM
 loss FW
@@ -46718,19 +46718,19 @@ or CC
 12 CD
 cents ,
 a DT
-share NN
+share .
 
 Averae SYM
 daily IN
 trading DT
 volume NN
 : :
-Ordinary ``
-shares PRP
-outstanding VBP
-: TO
-182.9 $
-million CD
+Ordinary WDT
+shares VBZ
+outstanding TO
+: $
+182.9 CD
+million .
 
 NOTE SYM
 : IN
@@ -48033,8 +48033,8 @@ since IN
 the DT
 dollar NN
 bottomed VBZ
-out RP
-in IN
+out RB
+in .
 
 Industrial NNP
 output ,
@@ -48394,7 +48394,7 @@ Lilly NNP
 . .
 
 Markets NNP
--- :
+-- .
 
 Stocks SYM
 : IN
@@ -48430,10 +48430,10 @@ Shearson NNP
 Lehman NNP
 Hutton NNP
 Treasury NNP
-index POS
-3377.43 NN
-, ,
-off ''
+index ,
+3377.43 WDT
+, VBZ
+off .
 
 Commodities SYM
 : FW
