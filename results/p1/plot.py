@@ -5,6 +5,8 @@ f = open("training_log.txt")
 
 logs = f.read().split()
 
+print logs
+
 x = [i for i in range(len(logs))]
 y = [float(i) for i in logs]
 

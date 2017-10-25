@@ -70,6 +70,58 @@ class FileHandler {
 		return taggedSentences;
 	}
 
+	/*
+	   Read untagged sentences and return a list of tagged sentences.
+	*/
+	ArrayList<Sentence> readUntaggedSentences(String filename) throws IOException {
+		BufferedReader br = new BufferedReader(new FileReader(filename));
+
+		String cur_line = null;
+
+		ArrayList<Sentence> taggedSentences = new ArrayList<Sentence>();
+
+		int num_sentences = 0;
+		boolean is_first = true;
+
+		Sentence sent = null;
+
+		while ((cur_line = br.readLine()) != null) {
+			if (is_first || cur_line.length() == 0) {
+				if (is_first) {
+					is_first = false;
+					num_sentences++;
+					sent = new Sentence();
+					String[] parts = cur_line.split(" ");
+					sent.addWord(new Word(parts[0], parts[1]));
+
+				} else {
+					// add the finished sentence
+					taggedSentences.add(sent);
+
+					// create new empty sentence
+					num_sentences++;
+					sent = new Sentence();
+				}
+			} else {
+				/*
+				if (sent == null) {
+					System.out.println("null sent pointer");
+				}
+				*/
+				String[] parts = cur_line.split(" ");
+				Word w = new Word(parts[0], parts[1]);
+				/*
+				if (w == null) {
+					System.out.println("null word pointer");
+				}
+				*/
+				sent.addWord(w);
+			}
+		}
+
+		return taggedSentences;
+	}
+
 	public static void main(String[] args) throws IOException {
 		String trainFilename = args[0];
 

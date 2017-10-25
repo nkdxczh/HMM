@@ -534,12 +534,12 @@ big $
 losers CD
 in ,
 the IN
-collapse DT
-of ,
-UAL CC
-Corp. ,
-stock CC
-. .
+collapse ,
+of IN
+UAL $
+Corp. NNP
+stock ,
+. CC
 
 Look UH
 at ,
@@ -829,8 +829,8 @@ with IN
 a TO
 $ $
 575,000 CD
-bonus CC
-. .
+bonus ,
+. CC
 
 The WP$
 40-year NNP
@@ -888,8 +888,8 @@ with ,
 a TO
 $ $
 280,000 CD
-bonus CC
-. .
+bonus ,
+. CC
 
 Mr. NNP
 Pope ,
@@ -931,9 +931,9 @@ $ $
 million ,
 at IN
 yesterday ,
-'s MD
-close VB
-. .
+'s IN
+close $
+. CD
 
 Of ``
 the IN
@@ -1080,15 +1080,15 @@ Sherman CD
 , ,
 who MD
 resigned ,
-to MD
-pursue RB
-other ,
-interests CC
-, ,
-in IN
-both ,
-positions CC
-. .
+to TO
+pursue $
+other NNP
+interests ,
+, IN
+in $
+both CD
+positions ,
+. CC
 
 Manville EX
 is ,
@@ -1486,9 +1486,9 @@ introduced TO
 in $
 West NNP
 Germany ,
-this $
-year CD
-. .
+this IN
+year $
+. CD
 
 Intense WP$
 competition NNP
@@ -2143,10 +2143,10 @@ Colgate ,
 U.S. $
 business CD
 , ,
-Mr. CC
-Mark ,
-said IN
-. .
+Mr. ``
+Mark PRP
+said ,
+. CC
 
 Operating UH
 profit ,
@@ -2168,8 +2168,8 @@ quarter CD
 , ,
 Mr. ``
 Mark PRP
-added MD
-. .
+added ,
+. CC
 
 He SYM
 said IN
@@ -2409,8 +2409,8 @@ Kendall $
 health-care CD
 business ,
 in IN
-1988 DT
-. .
+1988 $
+. CD
 
 H. NNP
 Anthony ,
@@ -2636,8 +2636,8 @@ nobody WDT
 thought MD
 they ,
 looked MD
-right VB
-. .
+right ,
+. CC
 
 Globe #
 columnist CD
@@ -2680,18 +2680,18 @@ bottle CD
 of ,
 miracle DT
 elixir ,
-that IN
-promises ,
-to MD
-do ,
-away MD
-with ,
-diarrhea CC
-in ,
-our IN
-lifetime WP
-. MD
-'' .
+that WDT
+promises MD
+to ,
+do MD
+away ,
+with IN
+diarrhea ,
+in IN
+our $
+lifetime CD
+. .
+'' ''
 
 Mr. ``
 Barnicle PRP
@@ -2849,8 +2849,8 @@ of IN
 the IN
 likeness $
 spectrum CD
-. CC
-'' .
+. .
+'' ''
 
 Rival WP$
 Boston NNP
@@ -3538,9 +3538,9 @@ to TO
 fill $
 the NNP
 new ,
-positions MD
-soon RB
-. .
+positions CC
+soon ,
+. CC
 
 Customarily UH
 , ,
@@ -3876,9 +3876,9 @@ More EX
 enemies ,
 to MD
 be ,
-dealt ``
-with IN
-. .
+dealt IN
+with $
+. CD
 
 In ``
 the IN
@@ -4277,8 +4277,8 @@ the ,
 art IN
 of $
 survival CD
-. CC
-'' .
+. .
+'' ''
 
 In ``
 keeping IN
@@ -4370,11 +4370,11 @@ it MD
 through ,
 1988 CC
 , ,
-'' MD
-Mr. ,
-Moss MD
-contends VB
-. .
+'' IN
+Mr. $
+Moss CD
+contends ,
+. CC
 
 Perhaps ``
 most PRP
@@ -4492,8 +4492,8 @@ have ,
 any TO
 other $
 option CD
-. CC
-'' .
+. .
+'' ''
 
 His ``
 chief PRP
@@ -4672,8 +4672,8 @@ la $
 Pina CD
 -- ,
 pineapple MD
-face VB
-. .
+face ,
+. CC
 
 Born ``
 the IN
@@ -4795,8 +4795,8 @@ friends ,
 from IN
 the $
 period CD
-say IN
-. .
+say ,
+. CC
 
 `` ``
 He PRP
@@ -4961,17 +4961,17 @@ national $
 income CD
 . .
 
-Satisfying ``
-its PRP
-interests ,
-was MD
-a ,
-priority CC
-for ,
-any TO
-Panamanian $
-leader CD
-. .
+Satisfying (
+its $
+interests CD
+was ,
+a IN
+priority ,
+for IN
+any $
+Panamanian CD
+leader ,
+. CC
 
 Mr. ``
 Noriega PRP
@@ -5129,9 +5129,9 @@ gained MD
 a ,
 ready WDT
 cache ,
-of $
-information CD
-. .
+of IN
+information $
+. CD
 
 He EX
 knew ,
@@ -5712,13 +5712,13 @@ when CD
 he ,
 was MD
 just ,
-as IN
-close TO
-to $
-the NNP
-Cubans ,
-. CC
-'' .
+as MD
+close ,
+to TO
+the $
+Cubans CD
+. .
+'' ''
 
 Even PRP
 at ,
@@ -5729,8 +5729,8 @@ stage CD
 drugs CC
 caused ,
 additional MD
-concerns VB
-. .
+concerns ,
+. CC
 
 During ``
 the IN
@@ -5956,8 +5956,8 @@ intense RB
 , ,
 Mr. ``
 Turner PRP
-says MD
-. .
+says ,
+. CC
 
 `` ``
 In IN
@@ -6189,13 +6189,13 @@ U.S. $
 soil CD
 . .
 
-It ``
-was IN
-a $
-Friday CD
-in ,
-June CC
-. .
+It EX
+was ,
+a IN
+Friday ,
+in IN
+June $
+. CD
 
 The WP$
 Pentagon NNP
@@ -6247,8 +6247,8 @@ military $
 group CD
 commander ,
 in IN
-Panama DT
-. .
+Panama $
+. CD
 
 `` ``
 Due PRP
@@ -6573,10 +6573,10 @@ have ,
 now MD
 , ,
 '' MD
-Mr. RB
-Sanford ,
-says IN
-. .
+Mr. ``
+Sanford PRP
+says ,
+. CC
 
 `` ``
 If PRP
@@ -6824,8 +6824,8 @@ secret $
 training CD
 center ,
 in IN
-Panama DT
-. .
+Panama $
+. CD
 
 Mr. ``
 Noriega PRP
@@ -7068,8 +7068,8 @@ with ,
 sound TO
 and $
 video CD
-. CC
-'' .
+. .
+'' ''
 
 Mr. ``
 Briggs PRP
@@ -7411,8 +7411,8 @@ up ,
 a TO
 Sandinista $
 arsenal CD
-. CC
-'' .
+. .
+'' ''
 
 Col. ``
 North PRP
@@ -7730,8 +7730,8 @@ quite ,
 , CC
 Sen. ,
 Leahy MD
-contends VB
-. .
+contends ,
+. CC
 
 `` ``
 For PRP
@@ -8031,9 +8031,9 @@ down TO
 from $
 83.8 CD
 % ,
-in $
-August CD
-. .
+in IN
+August $
+. CD
 
 Measures SYM
 of IN
@@ -8053,19 +8053,19 @@ dropped TO
 0.2 $
 % CD
 , ,
-its $
-first NNP
-decline ,
-since IN
-February $
-, CD
-after ,
-having CC
-been ,
-unchanged CC
-in ,
-October PRP
-. .
+its TO
+first $
+decline CD
+since ,
+February CC
+, ,
+after IN
+having ,
+been IN
+unchanged ,
+in IN
+October $
+. CD
 
 Factories EX
 operated ,
@@ -8089,8 +8089,8 @@ from $
 84.1 CD
 % ,
 in IN
-September DT
-. .
+September $
+. CD
 
 The EX
 declines ,
@@ -8191,8 +8191,8 @@ subsequently CD
 '' IN
 Mr. $
 Harris CD
-said IN
-. .
+said ,
+. CC
 
 `` ``
 You PRP
@@ -8332,9 +8332,9 @@ a TO
 seat $
 on CD
 NESB ,
-'s IN
-board DT
-. .
+'s MD
+board ,
+. CC
 
 NESB EX
 is MD
@@ -8362,8 +8362,8 @@ decline ,
 , CC
 federal ,
 researchers MD
-report VB
-. .
+report ,
+. CC
 
 The WP$
 drop NNP
@@ -8814,14 +8814,14 @@ ca MD
 n't RB
 be ,
 taken CC
-for IN
-granted ,
-, IN
-'' $
-the NNP
-report ,
-says IN
-. .
+for ,
+granted CC
+, ,
+'' IN
+the $
+report NNP
+says ,
+. CC
 
 `` ``
 Smoking PRP
@@ -8841,8 +8841,8 @@ children MD
 adolescents TO
 and $
 minorities CD
-. CC
-'' .
+. .
+'' ''
 
 An UH
 editorial ,
@@ -9135,9 +9135,9 @@ per IN
 population CD
 by ,
 race WDT
-and ,
-sex CC
-. .
+and MD
+sex ,
+. CC
 
 White RBR
 Males .
@@ -9918,8 +9918,8 @@ to ,
 on IN
 1.7 $
 million CD
-shares CC
-. .
+shares ,
+. CC
 
 The WP$
 wholesaler NNP
@@ -10268,22 +10268,22 @@ on IN
 additional $
 responsibilities CD
 as ,
-editor IN
-in ,
-chief IN
-of IN
-the $
-company CD
-. .
+editor TO
+in $
+chief CD
+of ,
+the IN
+company $
+. CD
 
 John WP$
 Wilpers NNP
 resigned ,
-as IN
-editor TO
-in $
-chief CD
-. .
+as MD
+editor ,
+in IN
+chief $
+. CD
 
 Mr. NNP
 Ingersoll ,
@@ -10527,8 +10527,8 @@ book ,
 `` ``
 Silent PRP
 Spring MD
-. CC
-'' .
+. .
+'' ''
 
 Shortly ``
 thereafter PRP
@@ -10623,10 +10623,10 @@ by IN
 . .
 
 There EX
-were MD
-many ,
-more IN
-. .
+were ,
+many TO
+more $
+. CD
 
 Thousands SYM
 of IN
@@ -10743,8 +10743,8 @@ counteract ,
 the IN
 greenhouse $
 effect CD
--RRB- MD
-. .
+-RRB- ,
+. CC
 
 They EX
 are MD
@@ -10842,7 +10842,7 @@ Are ``
 We PRP
 Overreacting MD
 ? .
-'' .
+'' ''
 
 First UH
 and ,
@@ -11303,8 +11303,8 @@ flat ,
 at IN
 $ $
 1.02 CD
-billion CD
-. .
+billion ,
+. CC
 
 The WP$
 year-ago NNP
@@ -11457,8 +11457,8 @@ to ,
 keep MD
 volumes ,
 from IN
-slipping DT
-. .
+slipping $
+. CD
 
 The WP$
 company NNP
@@ -11790,9 +11790,9 @@ Chapter $
 bankruptcy ,
 protection CC
 earlier ,
-this $
-year CD
-. .
+this IN
+year $
+. CD
 
 Currently UH
 , ,
@@ -12068,11 +12068,11 @@ assurances ,
 that IN
 he ,
 wo MD
-n't ,
-have MD
-delivery ,
-problems MD
-. .
+n't RB
+have ,
+delivery MD
+problems ,
+. CC
 
 For ``
 the IN
@@ -12528,8 +12528,8 @@ the $
 schedule CD
 by ,
 mid-season DT
-. CC
-'' .
+. .
+'' ''
 
 He EX
 declined ,
@@ -13064,8 +13064,8 @@ costs CD
 such IN
 as $
 overtime CD
-pay IN
-. .
+pay ,
+. CC
 
 For ``
 the IN
@@ -13273,10 +13273,10 @@ Everett ``
 Meyers PRP
 , ,
 who MD
-resigned IN
-in $
-May CD
-. .
+resigned ,
+in IN
+May $
+. CD
 
 This EX
 is ,
@@ -13303,8 +13303,8 @@ by IN
 Using PRP$
 Two $
 Drugs CD
-. CC
-'' .
+. .
+'' ''
 
 In ``
 this PRP
@@ -13511,9 +13511,9 @@ the IN
 hope ,
 of IN
 something ,
-still MD
-better VB
-. .
+still TO
+better $
+. CD
 
 I PRP
 feel ,
@@ -13799,8 +13799,8 @@ currently $
 running CD
 on ,
 leaded MD
-fuel VB
-. .
+fuel ,
+. CC
 
 The EX
 initial ,
@@ -14024,9 +14024,9 @@ mentions TO
 reformulated $
 gasoline CD
 as ,
-an $
-alternative CD
-. .
+an IN
+alternative $
+. CD
 
 The WP$
 Bush NNP
@@ -14434,8 +14434,8 @@ Lincoln CD
 , ,
 Mr. ``
 Seidman PRP
-said MD
-. .
+said ,
+. CC
 
 Further EX
 investigation ,
@@ -14480,8 +14480,8 @@ regulators MD
 unlawfully RB
 seized ,
 the IN
-thrift DT
-. .
+thrift $
+. CD
 
 Leonard ``
 Bickwit PRP
@@ -14523,8 +14523,8 @@ at ,
 the IN
 appropriate $
 time CD
-. CC
-'' .
+. .
+'' ''
 
 Lincoln PRP
 's MD
@@ -14967,8 +14967,8 @@ financially ,
 `` ``
 overly PRP
 optimistic MD
-. CC
-'' .
+. .
+'' ''
 
 Asked SYM
 about IN
@@ -14985,8 +14985,8 @@ said ,
 we PRP
 totally MD
 disagree VB
-. CC
-'' .
+. .
+'' ''
 
 She EX
 said ,
@@ -15061,8 +15061,8 @@ than IN
 it ,
 originally WP
 had MD
-scheduled VB
-. .
+scheduled ,
+. CC
 
 He EX
 insisted ,
@@ -15384,15 +15384,15 @@ Eastern NNP
 plans CC
 . .
 
-Both ``
-said IN
-the $
-new NNP
-plan ,
-would MD
-n't ,
-work CC
-. .
+Both UH
+said ,
+the IN
+new $
+plan CD
+would ,
+n't TO
+work $
+. CD
 
 Ernst (
 & $
@@ -15579,8 +15579,8 @@ announced ,
 700 MD
 , ,
 they MD
-said IN
-. .
+said ,
+. CC
 
 Mr. ``
 Bakes PRP
@@ -15955,8 +15955,8 @@ to $
 1986 CD
 's ,
 tax MD
-act VB
-. .
+act ,
+. CC
 
 But ``
 most PRP
@@ -16317,9 +16317,9 @@ they ,
 should MD
 file RB
 jointly ,
-or IN
-separately DT
-. .
+or CC
+separately ,
+. CC
 
 THE WP$
 IRS NNP
@@ -16404,10 +16404,10 @@ is IN
 % CD
 or ,
 less CC
-of IN
-the $
-liability CD
-. .
+of ,
+the IN
+liability $
+. CD
 
 IRS NNP
 Notice ,
@@ -18136,8 +18136,8 @@ the $
 International NNP
 Mountain ,
 Biking CC
-Association MD
-. .
+Association ,
+. CC
 
 `` ``
 I PRP
@@ -18146,8 +18146,8 @@ we WDT
 're MD
 making IN
 progress DT
-. CC
-'' .
+. .
+'' ''
 
 Few ``
 would MD
@@ -18557,8 +18557,8 @@ Corp. ,
 , IN
 and $
 Merrill CD
-Lynch IN
-. .
+Lynch ,
+. CC
 
 Shared SYM
 Technologies IN
@@ -18862,8 +18862,8 @@ small $
 gesture CD
 , ,
 traders MD
-said IN
-. .
+said ,
+. CC
 
 Fed NNP
 officials ,
@@ -18924,13 +18924,13 @@ around IN
 8 $
 3\/4 CD
 % ,
-, IN
-down TO
-from $
-9 CD
-% ,
-previously MD
-. .
+, CC
+down ,
+from IN
+9 $
+% CD
+previously ,
+. CC
 
 Although UH
 stocks ,
@@ -19072,9 +19072,9 @@ financing ,
 the IN
 UAL $
 Corp CD
-. .
-buy-out )
-. .
+. CC
+buy-out ,
+. CC
 
 In ``
 major PRP
@@ -19407,7 +19407,7 @@ Bruce IN
 Kafaroff DT
 . .
 
-Daffynition .
+Daffynition :
 
 Repression SYM
 : IN
@@ -19698,10 +19698,10 @@ panel CC
 and ,
 plywood ``
 markets PRP
-will MD
-be ,
-stronger IN
-. .
+will ,
+be IN
+stronger $
+. CD
 
 Pulp ``
 and IN
@@ -19956,8 +19956,8 @@ posted ,
 a TO
 17 $
 % CD
-jump CD
-. .
+jump ,
+. CC
 
 PNC WP$
 Financial NNP
@@ -19993,7 +19993,7 @@ grew TO
 % CD
 . .
 
-Citicorp .
+Citicorp NNP
 
 Analysts UH
 were ,
@@ -20334,8 +20334,8 @@ revenue $
 growth CD
 . .
 
-Wells NNP
-Fargo .
+Wells ``
+Fargo PRP
 
 Wells ``
 Fargo PRP
@@ -20525,9 +20525,9 @@ other IN
 major $
 banks CD
 in ,
-the $
-U.S. CD
-. .
+the IN
+U.S. $
+. CD
 
 Wells ``
 Fargo PRP
@@ -20688,8 +20688,8 @@ foreign $
 loans CD
 . .
 
-Manufacturers NNP
-Hanover .
+Manufacturers ``
+Hanover PRP
 
 Manufacturers ``
 Hanover PRP
@@ -20852,11 +20852,11 @@ quality ,
 was MD
 poor RB
 , ,
-'' MD
-the RB
-spokesman ,
-said IN
-. .
+'' IN
+the $
+spokesman NNP
+said ,
+. CC
 
 Expenses EX
 unrelated ,
@@ -20872,8 +20872,8 @@ $ TO
 million CD
 . .
 
-PNC NNP
-Financial .
+PNC WP$
+Financial NNP
 
 PNC WP$
 Financial NNP
@@ -21384,8 +21384,8 @@ against ,
 an IN
 administrative $
 failure CD
-. CC
-'' .
+. .
+'' ''
 
 Even SYM
 if IN
@@ -21619,11 +21619,11 @@ the IN
 Congress ,
 -LRB- ``
 I PRP
--RRB- ,
-will MD
-lose ,
-big IN
-. .
+-RRB- MD
+will ,
+lose TO
+big $
+. CD
 
 But ``
 if IN
@@ -21835,12 +21835,12 @@ officials CD
 an IN
 allegation ,
 denied IN
-by ,
-Mr. ``
-Gandhi PRP
-'s ,
-administration CC
-. .
+by $
+Mr. NNP
+Gandhi ,
+'s MD
+administration ,
+. CC
 
 But ``
 many PRP
@@ -21976,9 +21976,9 @@ his TO
 first $
 two NNP
 years ,
-in $
-power CD
-. .
+in IN
+power $
+. CD
 
 His ``
 term PRP
@@ -22337,12 +22337,12 @@ were MD
 severely RB
 hampered ,
 by IN
-lack TO
-of $
-cooperation CD
-from ,
-Bofors PRP
-. .
+lack ,
+of IN
+cooperation $
+from CD
+Bofors ,
+. CC
 
 Bofors EX
 says ,
@@ -22510,9 +22510,9 @@ to TO
 any $
 Indian CD
 individual ,
-or $
-company CD
-. .
+or TO
+company $
+. CD
 
 July NNP
 18 POS
@@ -22639,16 +22639,16 @@ commissions ,
 were MD
 paid ,
 by IN
-Bofors PRP
-to ,
-an IN
-Indian $
-agent CD
-of ,
-the IN
-arms $
-company CD
-. .
+Bofors ,
+to TO
+an $
+Indian CD
+agent ,
+of IN
+the $
+arms CD
+company ,
+. CC
 
 Parsow WP$
 Partnership NNP
@@ -23136,9 +23136,9 @@ more $
 aggressive CD
 move ,
 was MD
-n't ,
-needed MD
-. .
+n't RB
+needed ,
+. CC
 
 The WP$
 Fed NNP
@@ -23272,9 +23272,9 @@ municipal TO
 and $
 mortgage-backed CD
 securities ,
-also WDT
-fell MD
-. .
+also IN
+fell $
+. CD
 
 But ``
 most PRP
@@ -23329,8 +23329,8 @@ a $
 bid CD
 price ,
 of IN
-97 DT
-. .
+97 $
+. CD
 
 The WP$
 TVA NNP
@@ -23624,15 +23624,15 @@ was MD
 expected ,
 to MD
 have ,
-expanded CC
-to ,
-$ TO
-9.1 $
-billion CD
-. .
+expanded IN
+to TO
+$ $
+9.1 CD
+billion ,
+. CC
 
-Treasury NNP
-Securities .
+Treasury UH
+Securities ,
 
 Treasury UH
 securities ,
@@ -23669,8 +23669,8 @@ to ,
 yield IN
 7.97 $
 % CD
-Monday CC
-. .
+Monday ,
+. CC
 
 The WP$
 latest NNP
@@ -23894,8 +23894,8 @@ yield IN
 % CD
 . .
 
-Mortgage-Backed RBR
-Securities .
+Mortgage-Backed NNP
+Securities ,
 
 The EX
 derivative ,
@@ -23925,10 +23925,10 @@ more ,
 issues CC
 that ,
 could MD
-be RB
-priced ,
-today CC
-. .
+be ,
+priced CC
+today ,
+. CC
 
 The WP$
 revival NNP
@@ -24124,7 +24124,7 @@ percentage $
 points CD
 . .
 
-Municipals .
+Municipals :
 
 Confusion UH
 over ,
@@ -24804,10 +24804,10 @@ for ,
 elections CC
 scheduled ,
 in IN
-Nicaragua DT
-in ,
-February CC
-. .
+Nicaragua ,
+in IN
+February $
+. CD
 
 The WP$
 bulk NNP
@@ -25370,9 +25370,9 @@ funds ,
 for IN
 projects ,
 in IN
-home WDT
-states MD
-. .
+home DT
+states ,
+. CC
 
 While ``
 the IN
@@ -25495,9 +25495,9 @@ smoking DT
 on ,
 most MD
 domestic ,
-airline ``
-flights CC
-. .
+airline CC
+flights ,
+. CC
 
 An ``
 exemption PRP
@@ -25761,9 +25761,9 @@ apparently MD
 intend ,
 to MD
 veto ,
-this $
-bill CD
-. .
+this MD
+bill ,
+. CC
 
 Markets EX
 usually MD
@@ -25771,10 +25771,10 @@ get ,
 noticed CC
 because ,
 they MD
-soar RB
-or ,
-plunge CC
-. .
+soar ,
+or CC
+plunge ,
+. CC
 
 Gold UH
 , ,
@@ -26083,8 +26083,8 @@ and ,
 precious TO
 metals $
 attractive CD
-. CC
-'' .
+. .
+'' ''
 
 Jeffrey NNP
 Nichols ,
@@ -26171,10 +26171,10 @@ West $
 to CD
 buy ,
 gold CC
-, IN
-he $
-said CD
-. .
+, ,
+he MD
+said ,
+. CC
 
 `` ``
 They PRP
@@ -26351,8 +26351,8 @@ the $
 gold CD
 traders ,
 handcuffed MD
-. CC
-'' .
+. .
+'' ''
 
 The WP$
 most NNP
@@ -26390,8 +26390,8 @@ gold CD
 , ,
 Mr. ``
 Mehta PRP
-said MD
-. .
+said ,
+. CC
 
 `` ``
 I PRP
@@ -26529,8 +26529,8 @@ In ``
 other IN
 commodity $
 markets CD
-yesterday CC
-: .
+yesterday ,
+: IN
 
 ENERGY RBR
 : .
@@ -26626,10 +26626,10 @@ barrel CC
 
 Heating ``
 oil PRP
-prices MD
-also ,
-rose MD
-. .
+prices ,
+also IN
+rose $
+. CD
 
 November ``
 gasoline IN
@@ -26985,8 +26985,8 @@ while ,
 wheat CC
 prices ,
 settled IN
-mixed DT
-. .
+mixed $
+. CD
 
 Moody NNP
 's ,
@@ -27179,8 +27179,8 @@ extinction ,
 of IN
 the $
 elephant CD
-. CC
-'' .
+. .
+'' ''
 
 Legitimate ``
 ranchers PRP
@@ -27889,12 +27889,12 @@ was ,
 a TO
 timing $
 mistake CD
-. CC
-'' .
+. .
+'' ''
 
 PRISON-SHOP SYM
 BLUES IN
-: .
+: $
 
 Sen. SYM
 Strom IN
@@ -28007,8 +28007,8 @@ D. CC
 , ,
 Calif CC
 . MD
--RRB- IN
-. .
+-RRB- ,
+. CC
 
 The ``
 plan PRP
@@ -28190,7 +28190,7 @@ business CD
 
 SMALL SYM
 TALK IN
-: .
+: $
 
 Some ``
 70 PRP
@@ -28355,8 +28355,8 @@ Banc $
 One CD
 in ,
 January IN
-1987 DT
-. .
+1987 $
+. CD
 
 The WP$
 company NNP
@@ -28430,8 +28430,8 @@ on ,
 the IN
 Banc $
 One CD
-board IN
-. .
+board ,
+. CC
 
 The WP$
 Treasury NNP
@@ -28672,10 +28672,10 @@ million ,
 in IN
 preferred $
 stock CD
-and TO
-debt $
-securities CD
-. .
+and ,
+debt CC
+securities $
+. CD
 
 When EX
 the ,
@@ -28809,9 +28809,9 @@ the IN
 Kabul $
 regime CD
 quickly ,
-and IN
-easily DT
-. .
+and MD
+easily ,
+. CC
 
 Soviet UH
 leaders ,
@@ -28826,10 +28826,10 @@ by ,
 all IN
 means $
 necessary CD
--- TO
-and $
-did CD
-. .
+-- ,
+and MD
+did ,
+. CC
 
 The WP$
 U.S. NNP
@@ -29133,8 +29133,8 @@ BMP CD
 state-of-the-art ,
 infantry WDT
 fighting MD
-vehicles VB
-. .
+vehicles ,
+. CC
 
 By WP$
 September NNP
@@ -29287,8 +29287,8 @@ of ,
 these CC
 troops ,
 have MD
-returned VB
-. .
+returned ,
+. CC
 
 In ``
 addition PRP
@@ -29325,8 +29325,8 @@ by ,
 1,500 CC
 Soviet ,
 KGB CC
-officers MD
-. .
+officers ,
+. CC
 
 Even PRP
 if ,
@@ -29808,8 +29808,8 @@ exist ,
 and MD
 fight ,
 at IN
-all DT
-. .
+all $
+. CD
 
 Last WP$
 summer NNP
@@ -29916,9 +29916,9 @@ by IN
 the $
 end NNP
 of ,
-this $
-year CD
-. .
+this IN
+year $
+. CD
 
 Moscow EX
 and ,
@@ -30170,8 +30170,8 @@ carry IN
 the $
 water CD
 ? ,
-' IN
-'' .
+' TO
+'' $
 
 It EX
 is ,
@@ -30501,12 +30501,12 @@ committees CD
 are ,
 likely WP
 to MD
-let RB
-aid ,
-continue TO
-until $
-February CD
-. .
+let ``
+aid PRP
+continue ,
+until TO
+February $
+. CD
 
 Most ``
 analysts PRP
@@ -30682,9 +30682,9 @@ late IN
 to ,
 prevent CC
 damage ,
-to MD
-SDI RB
-. .
+to TO
+SDI $
+. CD
 
 The WP$
 House NNP
@@ -31378,8 +31378,8 @@ disgusting ``
 and IN
 unnecessarily $
 inflammatory CD
-. CC
-'' .
+. .
+'' ''
 
 Commissioner SYM
 Mary IN
@@ -31523,10 +31523,10 @@ persuade $
 you CD
 to ,
 the IN
-opposite DT
-view ,
-. CC
-'' .
+opposite $
+view CD
+. .
+'' ''
 
 He EX
 recalled ,
@@ -31598,8 +31598,8 @@ charity CC
 , ,
 of IN
 humaneness DT
-. CC
-'' .
+. .
+'' ''
 
 Rights UH
 on ,
@@ -31625,9 +31625,9 @@ said IN
 subject WP
 to MD
 being ,
-taken WDT
-back MD
-. .
+taken IN
+back $
+. CD
 
 He EX
 says ,
@@ -31687,11 +31687,11 @@ in IN
 `` $
 a NNP
 common ,
-destiny CC
-as ,
-Americans WP
-. MD
-'' .
+destiny TO
+as $
+Americans CD
+. .
+'' ''
 
 Instead UH
 of ,
@@ -31731,8 +31731,8 @@ retrenchment ,
 with IN
 government $
 complicity CD
-. CC
-'' .
+. .
+'' ''
 
 This ``
 hardly PRP
@@ -32058,8 +32058,8 @@ products ,
 from IN
 1982 $
 to CD
-1988 CC
-. .
+1988 ,
+. CC
 
 He EX
 will MD
@@ -32517,8 +32517,8 @@ in ,
 the IN
 Soviet $
 federation CD
-. CC
-'' .
+. .
+'' ''
 
 The WP$
 committee NNP
@@ -32856,9 +32856,9 @@ than IN
 $ $
 1,600 CD
 on ,
-Nov. $
-25 CD
-. .
+Nov. IN
+25 $
+. CD
 
 The EX
 auction ,
@@ -32982,8 +32982,8 @@ International $
 Duty CD
 Free ,
 Confederation MD
-said IN
-. .
+said ,
+. CC
 
 Instead SYM
 of IN
@@ -33137,9 +33137,9 @@ in IN
 the $
 U.S. NNP
 have ,
-been IN
-sluggish DT
-. .
+been TO
+sluggish $
+. CD
 
 Revenue SYM
 in IN
@@ -33366,10 +33366,10 @@ hoped ,
 would MD
 be ,
 carrying IN
-the ,
-product CC
-already MD
-. .
+the $
+product CD
+already ,
+. CC
 
 Mr. ``
 Yanes PRP
@@ -33731,10 +33731,10 @@ the $
 same NNP
 direction ,
 at IN
-same NNP
-time ,
-. CC
-'' .
+same $
+time CD
+. .
+'' ''
 
 And SYM
 that IN
@@ -33892,14 +33892,14 @@ is CD
 a IN
 way ,
 of IN
-staying DT
-liquid ,
-even MD
-when ,
-they MD
-own ,
-stocks MD
-. .
+staying $
+liquid CD
+even ,
+when IN
+they ,
+own TO
+stocks $
+. CD
 
 These PRP
 and ,
@@ -34276,11 +34276,11 @@ take ,
 the IN
 risk ,
 of IN
-buying $
-too CD
-much ,
-stock CC
-. .
+buying PRP
+too ,
+much IN
+stock $
+. CD
 
 `` ``
 I PRP
@@ -34537,8 +34537,8 @@ doors ,
 are IN
 locked $
 . CD
-' IN
-'' .
+' ,
+'' IN
 
 The WP$
 takeover NNP
@@ -34586,14 +34586,14 @@ trouble ,
 the $
 stock CD
 tumbled ,
-; CC
-it ,
-closed MD
-at ,
-$ TO
-198 $
-yesterday CD
-. .
+; ``
+it PRP
+closed ,
+at IN
+$ $
+198 CD
+yesterday ,
+. CC
 
 Presumably UH
 , ,
@@ -34602,13 +34602,13 @@ is ,
 now MD
 trading ,
 closer CC
-to ,
-its IN
-value ,
-based IN
-on $
-earnings CD
-. .
+to TO
+its $
+value CD
+based ,
+on IN
+earnings $
+. CD
 
 By WP$
 contrast NNP
@@ -34795,15 +34795,15 @@ in IN
 percentage $
 terms NNP
 than ,
-it WDT
-was MD
-when ,
-the IN
-stock $
-market CD
+it MD
 was ,
-lower CC
-. .
+when IN
+the $
+stock CD
+market ,
+was IN
+lower $
+. CD
 
 John WP$
 J. NNP
@@ -34917,8 +34917,8 @@ stocks ,
 to TO
 sell $
 . CD
-' IN
-'' .
+' ,
+'' IN
 
 Some ``
 people PRP
@@ -35233,11 +35233,11 @@ technically IN
 a $
 computer CD
 worm ,
-, ``
-Mr. PRP
-Redmond ,
-said IN
-. .
+, IN
+Mr. $
+Redmond NNP
+said ,
+. CC
 
 A NNP
 worm ,
@@ -35417,14 +35417,14 @@ of ,
 peace CC
 for ,
 all IN
-, IN
-and ,
-then MD
-prepare ,
-for IN
-war ,
-. CC
-'' .
+, ,
+and MD
+then ,
+prepare IN
+for $
+war CD
+. .
+'' ''
 
 In ``
 addition PRP
@@ -35464,8 +35464,8 @@ feed ,
 the IN
 bats $
 tonight CD
-. CC
-'' .
+. .
+'' ''
 
 The WP$
 worm NNP
@@ -35564,8 +35564,8 @@ four $
 computer CD
 centers ,
 were MD
-affected VB
-. .
+affected ,
+. CC
 
 Yesterday UH
 , ,
@@ -35582,9 +35582,9 @@ is ,
 expected WP
 to MD
 grow ,
-to $
-100 CD
-. .
+to TO
+100 $
+. CD
 
 NASA UH
 said ,
@@ -35613,12 +35613,12 @@ and TO
 the $
 extent CD
 of ,
-the IN
-damage ,
-, IN
-if $
-any CD
-. .
+the MD
+damage RB
+, ,
+if IN
+any $
+. CD
 
 Anti-nuclear ``
 activists PRP
@@ -35715,10 +35715,10 @@ engine CD
 and MD
 yesterday ,
 because IN
-of IN
-the $
-weather CD
-. .
+of ,
+the IN
+weather $
+. CD
 
 NASA SYM
 said IN
@@ -36014,9 +36014,9 @@ knew ,
 or MD
 recklessly RB
 disregarded ,
-this ``
-fact PRP
-. .
+this IN
+fact $
+. CD
 
 Gradually UH
 , ,
@@ -36349,8 +36349,8 @@ has MD
 a TO
 good $
 nose CD
-. CC
-'' .
+. .
+'' ''
 
 The EX
 illegal ,
@@ -36386,12 +36386,12 @@ gone WP
 to MD
 trial ,
 the IN
-same ,
-issues WDT
-would MD
-have ,
-surfaced MD
-: .
+same $
+issues CD
+would ,
+have MD
+surfaced ,
+: IN
 
 Was UH
 there ,
@@ -37032,8 +37032,8 @@ right ,
 of IN
 honest $
 services CD
-. CC
-'' .
+. .
+'' ''
 
 At ``
 a PRP
@@ -37289,8 +37289,8 @@ million ,
 from IN
 $ $
 625.4 CD
-million CD
-. .
+million ,
+. CC
 
 Corning UH
 's ,
@@ -37433,8 +37433,8 @@ briefly WDT
 traumatized MD
 traders ,
 again MD
-yesterday VB
-. .
+yesterday ,
+. CC
 
 Within (
 10 $
@@ -37512,9 +37512,9 @@ days CD
 after ,
 its IN
 shocking ,
-190.58-point IN
-plunge DT
-. .
+190.58-point CC
+plunge ,
+. CC
 
 Nervous UH
 investors ,
@@ -37963,15 +37963,15 @@ Chase NNP
 and ,
 Citicorp CC
 's ,
-Citibank WDT
-are MD
-involved ,
-in IN
-the $
-UAL NNP
-buy-out ,
-financing CC
-. .
+Citibank CC
+are ,
+involved CC
+in ,
+the IN
+UAL $
+buy-out CD
+financing ,
+. CC
 
 Both WP$
 Citicorp NNP
@@ -38292,11 +38292,11 @@ to TO
 1\/4 CD
 . .
 
-Broader EX
-averages MD
-also ,
-fell MD
-. .
+Broader UH
+averages ,
+also IN
+fell $
+. CD
 
 Standard EX
 & ,
@@ -38411,10 +38411,10 @@ Kodak ,
 closed TO
 down $
 3\/4 CD
-to TO
-44 $
-1\/4 CD
-. .
+to ,
+44 CC
+1\/4 ,
+. CC
 
 The WP$
 only NNP
@@ -38486,8 +38486,8 @@ volume ,
 of IN
 161.5 $
 million CD
-shares CC
-. .
+shares ,
+. CC
 
 `` ``
 The PRP
@@ -38651,11 +38651,11 @@ a TO
 possible $
 prelude CD
 to ,
-reincorporating ``
-in IN
-the $
-U.S. CD
-. .
+reincorporating CC
+in ,
+the IN
+U.S. $
+. CD
 
 Dravo EX
 rose MD
@@ -39297,10 +39297,10 @@ among ,
 people MD
 leaving ,
 the IN
-stock ,
-market $
-. CD
-'' .
+stock $
+market CD
+. .
+'' ''
 
 Some PRP
 bankers ,
@@ -39373,10 +39373,10 @@ receive ,
 the IN
 proceeds ,
 from IN
-sales TO
-of $
-stock CD
-. .
+sales ,
+of IN
+stock $
+. CD
 
 `` ``
 This PRP
@@ -40725,8 +40725,8 @@ anticipation DT
 of ,
 richer WDT
 multilateral MD
-support VB
-. .
+support ,
+. CC
 
 Conservatives EX
 should MD
@@ -40796,9 +40796,9 @@ up CD
 now ,
 and MD
 explain ,
-the $
-alternative CD
-. .
+the IN
+alternative $
+. CD
 
 Mr. NNP
 Malpass ,
@@ -41159,10 +41159,10 @@ a $
 Carmel CD
 , ,
 Calif. CC
-, IN
-research ,
-firm CC
-. .
+, ,
+research CC
+firm ,
+. CC
 
 For ``
 TCI PRP
@@ -41448,13 +41448,13 @@ of IN
 such $
 systems CD
 , ,
-with MD
-less RB
-than ,
-one MD
-million ,
-subscribers CC
-. .
+with IN
+less ,
+than IN
+one $
+million CD
+subscribers ,
+. CC
 
 The WP$
 TCI NNP
@@ -41608,8 +41608,8 @@ demands ,
 `` ``
 grossly PRP
 excessive MD
-. CC
-'' .
+. .
+'' ''
 
 Later UH
 , ,
@@ -41868,10 +41868,10 @@ in IN
 , ,
 after IN
 Mr. ``
-Edelman IN
-gained $
-control CD
-. .
+Edelman PRP
+gained MD
+control ,
+. CC
 
 After ``
 Mr. PRP
@@ -42076,10 +42076,10 @@ research ,
 organization CC
 said ,
 in IN
-a TO
-new $
-report CD
-. .
+a $
+new NNP
+report ,
+. CC
 
 The WP$
 report NNP
@@ -42097,10 +42097,10 @@ more $
 sweeping CD
 response ,
 than IN
-many TO
-other $
-analyses CD
-. .
+many $
+other NNP
+analyses ,
+. CC
 
 It EX
 warns MD
@@ -42543,9 +42543,9 @@ Europe CD
 and ,
 Japan CC
 continues ,
-to MD
-narrow VB
-. .
+to TO
+narrow $
+. CD
 
 And ``
 he PRP
@@ -42555,9 +42555,9 @@ manufactured $
 goods CD
 exports ,
 are MD
-still ,
-rising CC
-. .
+still TO
+rising $
+. CD
 
 The WP$
 dollar NNP
@@ -42955,9 +42955,9 @@ just IN
 below $
 9 CD
 % ,
-last $
-week CD
-. .
+last IN
+week $
+. CD
 
 The WP$
 federal NNP
@@ -42971,9 +42971,9 @@ rate ,
 that IN
 banks PRP
 charge ,
-each CC
-other IN
-. .
+each TO
+other $
+. CD
 
 Market ``
 participants PRP
@@ -43556,9 +43556,9 @@ as IN
 many $
 markets CD
 as ,
-Maryland IN
-Club DT
-. .
+Maryland TO
+Club $
+. CD
 
 For ``
 example PRP
@@ -43831,15 +43831,15 @@ abortion $
 issue CD
 to ,
 round CC
-up ,
+up IN
+the $
+votes CD
+needed ,
+to MD
+override ,
 the IN
-votes ,
-needed MD
-to ,
-override CC
-the ,
-veto IN
-. .
+veto $
+. CD
 
 But ``
 there PRP
@@ -43985,18 +43985,18 @@ expects ,
 to MD
 complete ,
 a IN
-sale IN
-in $
-1989 CD
-. .
+sale ,
+in IN
+1989 $
+. CD
 
 It EX
-would ,
-n't MD
-discuss TO
-a $
-price CD
-. .
+would MD
+n't RB
+discuss ,
+a TO
+price $
+. CD
 
 Lee UH
 Dirks ,
@@ -44034,8 +44034,8 @@ failed ,
 investment CC
 bank ,
 's MD
-condition VB
-. .
+condition ,
+. CC
 
 Earlier ``
 this PRP
@@ -44276,10 +44276,10 @@ at IN
 Walter DT
 Reed ,
 Army CC
-Institute TO
-of $
-Research CD
-. .
+Institute ,
+of IN
+Research $
+. CD
 
 Dr. ``
 Redfield PRP
@@ -44372,8 +44372,8 @@ proteins CD
 , ,
 Dr. ``
 Redfield PRP
-said MD
-. .
+said ,
+. CC
 
 `` ``
 We PRP
@@ -44420,9 +44420,9 @@ or TO
 ill $
 individuals CD
 , ,
-he WDT
-added MD
-. .
+he MD
+added ,
+. CC
 
 One SYM
 of IN
@@ -44920,8 +44920,8 @@ first $
 six CD
 months ,
 of IN
-1988 DT
-. .
+1988 $
+. CD
 
 Matra ``
 said IN
@@ -45275,16 +45275,16 @@ a $
 result CD
 , ,
 '' MD
-said IN
-John $
-D. CD
-Ong ,
-, CC
-chairman ,
-and TO
-chief $
-executive CD
-. .
+said ,
+John IN
+D. $
+Ong CD
+, ,
+chairman CC
+and ,
+chief TO
+executive $
+. CD
 
 Prices SYM
 for IN
@@ -45302,8 +45302,8 @@ last $
 December CD
 , ,
 he MD
-said IN
-. .
+said ,
+. CC
 
 The EX
 plastic ,
@@ -46074,10 +46074,10 @@ GM $
 confirmed CD
 its ,
 friendly CC
-negotiations TO
-with $
-Jaguar CD
-. .
+negotiations ,
+with IN
+Jaguar $
+. CD
 
 But ``
 yesterday PRP
@@ -46122,8 +46122,8 @@ recommendations ,
 to MD
 hold ,
 from IN
-buy DT
-. .
+buy $
+. CD
 
 `` ``
 Sit PRP
@@ -46153,10 +46153,10 @@ zigzags ,
 `` ``
 too PRP
 hard ,
-to TO
-swallow $
-. CD
-'' .
+to MD
+swallow VB
+. .
+'' ''
 
 But ``
 a IN
@@ -46176,14 +46176,14 @@ largest IN
 auto $
 maker CD
 , ,
-firms WDT
-up ,
-its TO
-proposed $
-deal CD
-with ,
-Jaguar CC
-. .
+firms WP
+up TO
+its $
+proposed CD
+deal ,
+with IN
+Jaguar $
+. CD
 
 At ``
 the IN
@@ -46304,9 +46304,9 @@ to MD
 drop ,
 the IN
 anti-takeover ,
-barrier CC
-early IN
-. .
+barrier IN
+early $
+. CD
 
 `` ``
 I PRP
@@ -46325,8 +46325,8 @@ blazing ,
 '' ,
 Mr. ``
 Reitman PRP
-says MD
-. .
+says ,
+. CC
 
 `` ``
 Ford PRP
@@ -46457,8 +46457,8 @@ for ,
 Seattle-based CC
 Safeco ,
 Asset IN
-Management DT
-. .
+Management $
+. CD
 
 At ``
 the IN
@@ -46613,9 +46613,9 @@ at IN
 4 $
 7\/8 CD
 in ,
-early $
-May CD
-. .
+early IN
+May $
+. CD
 
 `` ``
 I PRP
@@ -46730,7 +46730,7 @@ shares ,
 outstanding IN
 : $
 182.9 CD
-million .
+million ,
 
 NOTE EX
 : ,
@@ -46780,10 +46780,10 @@ maker CD
 
 No ``
 replacement PRP
-was MD
-immediately ,
-named CC
-. .
+was ,
+immediately CC
+named ,
+. CC
 
 Mr. ``
 Sloan PRP
@@ -46804,9 +46804,9 @@ April $
 , ,
 a TO
 Lance $
-spokesman CD
-said IN
-. .
+spokesman NNP
+said ,
+. CC
 
 Newport NNP
 Electronics POS
@@ -47147,8 +47147,8 @@ million ,
 and TO
 # $
 90 CD
-million CD
-. .
+million ,
+. CC
 
 The WP$
 slump NNP
@@ -47438,10 +47438,10 @@ have ,
 lower CC
 margins ,
 than IN
-do ,
-operating $
-systems CD
-. .
+do $
+operating CD
+systems ,
+. CC
 
 But ``
 the IN
@@ -47592,9 +47592,9 @@ the IN
 high-performance $
 end NNP
 of ,
-the $
-market CD
-. .
+the IN
+market $
+. CD
 
 That ``
 segment PRP
@@ -47721,8 +47721,8 @@ as MD
 a RB
 new ,
 design MD
-approach VB
-. .
+approach ,
+. CC
 
 Digital NNP
 Equipment ,
@@ -48034,7 +48034,7 @@ the $
 dollar CD
 bottomed ,
 out IN
-in .
+in $
 
 Industrial ``
 output PRP
@@ -48042,15 +48042,15 @@ fell MD
 0.1 RB
 % ,
 in IN
-September $
-, CD
-the ,
-latest IN
-sign ,
-manufacturing MD
-is ,
-slowing CC
-. .
+September DT
+, ,
+the IN
+latest $
+sign CD
+manufacturing ,
+is IN
+slowing $
+. CD
 
 An WP$
 analyst NNP
@@ -48092,9 +48092,9 @@ a TO
 $ $
 1.42 CD
 billion ,
-quarterly $
-loss CD
-. .
+quarterly CC
+loss ,
+. CC
 
 Citicorp NNP
 posted ,
@@ -48393,8 +48393,8 @@ Lilly ,
 % CD
 . .
 
-Markets NNPS
--- .
+Markets EX
+-- ,
 
 Stocks SYM
 : IN
@@ -48432,8 +48432,8 @@ Hutton CC
 Treasury IN
 index $
 3377.43 CD
-, IN
-off .
+, ,
+off IN
 
 Commodities SYM
 : IN
@@ -48702,8 +48702,8 @@ $ $
 72-a-share CD
 tender ,
 offer IN
-price DT
-. .
+price $
+. CD
 
 A WP$
 BroadBeach NNP
@@ -48725,9 +48725,9 @@ n't RB
 identify ,
 the IN
 buyer ,
-or IN
-buyers DT
-. .
+or CC
+buyers ,
+. CC
 
 Luis ``
 Nogales PRP
@@ -48784,25 +48784,25 @@ first $
 Hispanic CD
 person ,
 to MD
-serve ,
-as IN
-a $
-Coors CD
-director ,
-, CC
-is ,
-an IN
-addition ,
-to TO
-the $
-board NNP
+serve RB
+as ,
+a TO
+Coors $
+director CD
 , ,
-increasing IN
-its ,
-membership IN
-to $
-nine CD
-. .
+is IN
+an $
+addition CD
+to ,
+the IN
+board ``
+, PRP
+increasing ,
+its IN
+membership ,
+to TO
+nine $
+. CD
 
 Hachette ``
 S.A. PRP
@@ -49193,8 +49193,8 @@ of ,
 , ,
 Mr. ``
 Turner PRP
-said MD
-. .
+said ,
+. CC
 
 The EX
 company ,
@@ -49247,19 +49247,19 @@ held ,
 Central WDT
 Diagnostic ,
 Laboratory CC
-Inc. ,
-in IN
-a $
-cash CD
-and ,
-securities CC
-transaction ,
-valued CC
-at ,
-$ TO
-85 $
-million CD
-. .
+Inc. IN
+in $
+a NNP
+cash ,
+and TO
+securities $
+transaction CD
+valued ,
+at IN
+$ $
+85 CD
+million ,
+. CC
 
 Unilab UH
 said ,

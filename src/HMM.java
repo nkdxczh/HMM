@@ -76,12 +76,26 @@ class HMM {
 
 	// number of iterations of EM
 	private int max_iters = 10;
+
+    // \xi_t(i): expected frequency of pos tag i at position t. Use as an accumulator.
+    private Matrix mle_gamma;
+
+    // \xi_t(i, j): expected frequency of transiting from pos tag i to j at position t.  Use as an accumulator.
+    private Matrix mle_digamma;
+
+    // \xi_t(i,w): expected frequency of pos tag i emits word w.
+    private Matrix mle_gamma_w;
+
+    // \xi_0(i): expected frequency of pos tag i at position 0.
+    private Matrix mle_gamma_0;
 	
 	/* Section of variables monitoring training */
 	
 	// record the changes in log likelihood during EM
 	private double[] log_likelihood = new double[max_iters];
 	private double[] accuracy = new double[max_iters];
+
+	private float mu;
 	
 	/**
 	 * Constructor with input corpora.
@@ -522,14 +536,18 @@ class HMM {
         int res = 0;
         double Max = Double.NEGATIVE_INFINITY;
         for(int i = 0; i < num_postags; ++i) {
-            if(Math.log(A.get(i, num_postags))  > Max){
+            if(v.get(i, s.length() - 1)  > Max){
                 res = i;
-                Max = Math.log(A.get(i, num_postags));
+                Max = v.get(i, s.length() - 1);
             }
         }
 
         return res;
 	}
+
+	private double mu_predict(){
+
+    }
 
 	public static void main(String[] args) throws IOException {
 		if (args.length < 3) {
@@ -545,6 +563,10 @@ class HMM {
 		if (args.length > 3) {
 			trainingLogFileName = args[3];
 		}
+
+        if (args.length > 3) {
+            float mu = args[3];
+        }
 		
 		// read in labeled corpus
 		FileHandler fh = new FileHandler();
