@@ -43,6 +43,15 @@ class HMM {
 	// prior of pos tags
 	private Matrix pi;
 
+    // transition matrix
+    private Matrix mle_A;
+
+    // emission matrix
+    private Matrix mle_B;
+
+    // prior of pos tags
+    private Matrix mle_pi;
+
 	// store the scaled alpha and beta
 	private Matrix alpha;
 	
@@ -57,7 +66,7 @@ class HMM {
 	private Matrix pred_seq;
 	
 	// \xi_t(i): expected frequency of pos tag i at position t. Use as an accumulator.
-	private Matrix gamma;
+	//private Matrix gamma;
 	
 	// \xi_t(i, j): expected frequency of transiting from pos tag i to j at position t.  Use as an accumulator.
 	private Matrix digamma;
@@ -75,19 +84,7 @@ class HMM {
 	private double smoothing_eps = 0.1;
 
 	// number of iterations of EM
-	private int max_iters = 10;
-
-    // \xi_t(i): expected frequency of pos tag i at position t. Use as an accumulator.
-    private Matrix mle_gamma;
-
-    // \xi_t(i, j): expected frequency of transiting from pos tag i to j at position t.  Use as an accumulator.
-    private Matrix mle_digamma;
-
-    // \xi_t(i,w): expected frequency of pos tag i emits word w.
-    private Matrix mle_gamma_w;
-
-    // \xi_0(i): expected frequency of pos tag i at position 0.
-    private Matrix mle_gamma_0;
+	private int max_iters = 30;
 	
 	/* Section of variables monitoring training */
 	
@@ -95,7 +92,9 @@ class HMM {
 	private double[] log_likelihood = new double[max_iters];
 	private double[] accuracy = new double[max_iters];
 
-	private float mu;
+	public float mu;
+
+	private int predict_count;
 	
 	/**
 	 * Constructor with input corpora.
@@ -157,10 +156,32 @@ class HMM {
 	 * Create HMM variables.
 	 */
 	public void prepareMatrices() {
-       A = new Matrix(new double[num_postags][num_postags + 1]);
-       B = new Matrix(new double[num_postags][num_words]); 
-       pi = new Matrix(new double[1][num_postags]);
+        A = new Matrix(num_postags, num_postags + 1);
+        B = new Matrix(num_postags, num_words);
+        pi = new Matrix(1, num_postags);
+
+        mle_A = new Matrix(num_postags, num_postags + 1);
+        mle_B = new Matrix(num_postags, num_words);
+        mle_pi = new Matrix(1, num_postags);
 	}
+
+	public void updateLambda(){
+        for(int i = 0; i < num_postags; ++i){
+            for(int j = 0; j < num_postags + 1; ++j) {
+                A.set(i, j, mu * mle_A.get(i, j) + (1-mu) * A.get(i, j));
+            }
+        }
+
+        for(int i = 0; i < num_postags; ++i){
+            for(int j = 0; j < num_words; ++j) {
+                B.set(i, j, mu * mle_B.get(i, j) + (1-mu) * B.get(i, j));
+            }
+        }
+
+        for(int tag_id = 0; tag_id < num_postags; ++tag_id) {
+            pi.set(0, tag_id, mu * mle_pi.get(0, tag_id) + (1-mu) * pi.get(0, tag_id));
+        }
+    }
 
 	/** 
 	 *  MLE A, B and pi on a labeled corpus
@@ -176,52 +197,53 @@ class HMM {
                 int lemme_id = vocabulary.get(word.getLemme()).intValue();
                 count_tags[tag_id]++;
                 if(i == 0){
+                    mle_pi.set(0, tag_id, mle_pi.get(0, tag_id) + 1);
                     pi.set(0, tag_id, pi.get(0, tag_id) + 1);
                 }
                 else{
+                    mle_A.set(pre_tag_id, tag_id, mle_A.get(pre_tag_id, tag_id) + 1);
                     A.set(pre_tag_id, tag_id, A.get(pre_tag_id, tag_id) + 1);
                 }
+                mle_B.set(tag_id, lemme_id, mle_B.get(tag_id, lemme_id) + 1);
                 B.set(tag_id, lemme_id, B.get(tag_id, lemme_id) + 1);
                 pre_tag_id = tag_id;
                 if(i == sentence.length() - 1){
+                    mle_A.set(tag_id, num_postags, mle_A.get(tag_id, num_postags) + 1);
                     A.set(tag_id, num_postags, A.get(tag_id, num_postags) + 1);
                 }
             }
         }
 
-        /*for(int i = 0; i < num_postags; ++i){
-            for(int j = 0; j < num_postags; ++j)
-                if(A.get(i, j) == 0)A.set(i, j, smoothing_eps);
-        }*/
-
         for(int i = 0; i < num_postags; ++i){
-            for(int j = 0; j < num_words; ++j)
-                if(B.get(i, j) == 0)B.set(i, j, smoothing_eps);
+            for(int j = 0; j < num_words; ++j) {
+                mle_B.set(i, j, mle_B.get(i,j) + smoothing_eps);
+                B.set(i, j, B.get(i,j) + smoothing_eps);
+            }
         }
-
-        /*for(int i = 0; i < 2; ++i){
-            for(int j = 0; j < num_postags; ++j)
-                if(pi.get(i, j) == 0)pi.set(i, j, smoothing_eps);
-        }*/
 
         //normalize
         double scale = 0;
         for(int tag_id = 0; tag_id < num_postags; ++tag_id) {
+            mle_pi.set(0, tag_id, mle_pi.get(0, tag_id) / labeled_corpus.size());
             pi.set(0, tag_id, pi.get(0, tag_id) / labeled_corpus.size());
         }
 
         for(int tag_id = 0; tag_id < num_postags; ++tag_id){
             scale = 0;
             for(int post_tag_id = 0; post_tag_id < num_postags + 1; ++post_tag_id)
-                scale += A.get(tag_id, post_tag_id);
-            for(int post_tag_id = 0; post_tag_id < num_postags + 1; ++post_tag_id)
+                scale += mle_A.get(tag_id, post_tag_id);
+            for(int post_tag_id = 0; post_tag_id < num_postags + 1; ++post_tag_id) {
+                mle_A.set(tag_id, post_tag_id, mle_A.get(tag_id, post_tag_id) / scale);
                 A.set(tag_id, post_tag_id, A.get(tag_id, post_tag_id) / scale);
+            }
 
             scale = 0;
             for(int lemme_id = 0; lemme_id < num_words; ++lemme_id)
-                scale += B.get(tag_id, lemme_id);
-            for(int lemme_id = 0; lemme_id < num_words; ++lemme_id)
-                B.set(tag_id, lemme_id, B.get(tag_id, lemme_id) / count_tags[tag_id]);
+                scale += mle_B.get(tag_id, lemme_id);
+            for(int lemme_id = 0; lemme_id < num_words; ++lemme_id) {
+                mle_B.set(tag_id, lemme_id, mle_B.get(tag_id, lemme_id) / scale);
+                B.set(tag_id, lemme_id, B.get(tag_id, lemme_id) / scale);
+            }
         }
 	}
 
@@ -230,32 +252,49 @@ class HMM {
 	 */
 	public void em() {
         //Initialize Matrices
-        alpha = new Matrix(new double[num_postags][max_sentence_length]); 
-        beta = new Matrix(new double[num_postags][max_sentence_length]); 
-        scales = new Matrix(new double[2][max_sentence_length]); 
+        alpha = new Matrix(num_postags, max_sentence_length);
+        beta = new Matrix(num_postags, max_sentence_length);
+        scales = new Matrix(2, max_sentence_length);
 
-        digamma = new Matrix(new double[num_postags][num_postags + 1]);
+        digamma = new Matrix(num_postags, num_postags + 1);
 
-        gamma = new Matrix(new double[1][num_postags]); 
-        gamma_0 = new Matrix(new double[1][num_postags]);
-        gamma_w = new Matrix(new double[num_postags][num_words]);
+        //gamma = new Matrix(new double[1][num_postags]);
+        gamma_0 = new Matrix(1, num_postags);
+        gamma_w = new Matrix(num_postags, num_words);
 
         mle();
 
-        max_iters = 10;
         for(int iter = 0; iter < max_iters; ++iter){
+            final int temiter = iter;
             //E-step
             log_likelihood[iter] = 0;
+
+            Thread[] threads = new Thread[unlabeled_corpus.size()];
+            int c = 0;
             for(Sentence s : unlabeled_corpus){
                 double PO = expection(s);
                 log_likelihood[iter] += PO;
+
+                /*threads[c++] = new Thread(new Runnable()
+                {
+                    public void run()
+                    {
+                        double PO = expection(s);
+                        log_likelihood[temiter] += PO;
+                    }
+                });
+                threads[c - 1].start();*/
             }
+            /*try {
+                for (int i = 0; i < c; ++i) threads[i].join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }*/
 
             //M-step
             maximization();
 
-            //double acc = predict();
-            //accuracy[iter] = acc;
+            //System.out.println("iteration " + iter);
         }
 	}
 	
@@ -264,13 +303,15 @@ class HMM {
 	 * Find the most likely pos tag for each word of the sentences in the unlabeled corpus.
 	 */
 	public double predict() {
-        v = new Matrix(new double[num_postags][max_sentence_length]);
-        back_pointer = new Matrix(new double[num_postags][max_sentence_length]);
-        pred_seq = new Matrix(new double[unlabeled_corpus.size()][max_sentence_length]);
+        v = new Matrix(num_postags, max_sentence_length);
+        back_pointer = new Matrix(num_postags, max_sentence_length);
+        pred_seq = new Matrix(unlabeled_corpus.size(), max_sentence_length);
         int correct = 0;
         int all = 0;
 
-        for(int i = 0; i < unlabeled_corpus.size(); ++i){
+        predict_count = Math.min(2012, unlabeled_corpus.size());
+
+        for(int i = 0; i < predict_count; ++i){
             Sentence s = unlabeled_corpus.get(i);
             all += s.length();
             int index = (int)viterbi(s);
@@ -278,7 +319,7 @@ class HMM {
             int k = s.length() - 1;
             while(k >= 0){
                 pred_seq.set(i, k, index);
-                if(index == pos_tags.get(s.getWordAt(k).getPosTag()).intValue())correct++;
+                //if(index == pos_tags.get(s.getWordAt(k).getPosTag()).intValue())correct++;
                 index = (int)back_pointer.get(index, k);
                 --k;
             }
@@ -296,7 +337,7 @@ class HMM {
         BufferedWriter bw = new BufferedWriter(fw);
         int correct = 0;
         int Sum = 0;
-        for(int i = 0; i < unlabeled_corpus.size(); ++i){
+        for(int i = 0; i < predict_count; ++i){
             Sentence s = unlabeled_corpus.get(i);
             for(int j = 0; j < s.length(); ++j){
                 bw.write(s.getWordAt(j).getLemme() + " ");
@@ -306,7 +347,6 @@ class HMM {
             }
             bw.write("\n");
         }
-        System.out.println((double)correct / Sum);
         bw.close();
         fw.close();
 	}
@@ -356,7 +396,7 @@ class HMM {
 
                 double new_gamma_w = alpha_t_i * beta_t_j;
                 gamma_w.set(tag_id, lemme_id, gamma_w.get(tag_id, lemme_id) + new_gamma_w);
-                gamma.set(0, tag_id, gamma.get(0, tag_id) + new_gamma_w);
+                //gamma.set(0, tag_id, gamma.get(0, tag_id) + new_gamma_w);
                 if(t == 0)gamma_0.set(0, tag_id, gamma_0.get(0, tag_id) + new_gamma_w);
             }
 
@@ -399,30 +439,33 @@ class HMM {
 	 * Just reestimate A, B and pi using gamma and digamma
 	 */
 	private void maximization() {
+        double scale = 0;
+
         for(int i = 0; i < num_postags; ++i){
 
-            double scale = 0;
+            scale = smoothing_eps * (num_postags + 1);
             for(int j = 0; j < num_postags + 1; ++j){
                 scale += digamma.get(i, j);
             }
             for(int j = 0; j < num_postags + 1; ++j){
-                A.set(i, j, digamma.get(i, j) / scale);
+                A.set(i, j, (digamma.get(i, j) + smoothing_eps )/ scale);
                 digamma.set(i, j, 0);
             }
 
-            scale = 0;
+            scale = smoothing_eps * num_words;
+
             for(int j = 0; j < num_words; ++j){
                 scale += gamma_w.get(i, j);
             }
             for(int j = 0; j < num_words; ++j){
-                B.set(i, j, gamma_w.get(i, j) / scale);
+                B.set(i,j,(gamma_w.get(i, j) + smoothing_eps)/scale);
                 gamma_w.set(i, j, 0);
             }
 
-            gamma.set(0, i, 0);
+            //gamma.set(0, i, 0);
         }
 
-        double scale = 0;
+        scale = 0;
         for(int i = 0; i < num_postags; ++i){
             scale += gamma_0.get(0, i);
         }
@@ -430,6 +473,8 @@ class HMM {
             pi.set(0, i, gamma_0.get(0, i) / scale);
             gamma_0.set(0, i, 0);
         }
+
+        updateLambda();
 	}
 
 	/**
@@ -546,10 +591,6 @@ class HMM {
         return res;
 	}
 
-	private double mu_predict(){
-
-    }
-
 	public static void main(String[] args) throws IOException {
 		if (args.length < 3) {
 			System.out.println("Expecting at least 3 parameters");
@@ -565,10 +606,13 @@ class HMM {
 			trainingLogFileName = args[3];
 		}
 
-        if (args.length > 3) {
-            float mu = args[3];
+        float mu = 0;
+        if (args.length > 4) {
+            mu = Float.parseFloat(args[4]);
+            predictionFileName += "_" + args[4] + ".txt";
+            trainingLogFileName += "_" + args[4] + ".txt";
         }
-		
+
 		// read in labeled corpus
 		FileHandler fh = new FileHandler();
 		
@@ -577,6 +621,7 @@ class HMM {
 		ArrayList<Sentence> unlabeled_corpus = fh.readTaggedSentences(unlabeledFileName);
 
 		HMM model = new HMM(labeled_corpus, unlabeled_corpus);
+		model.mu = mu;
 
 		model.prepareMatrices();
 		model.em();

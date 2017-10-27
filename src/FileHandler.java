@@ -57,7 +57,9 @@ class FileHandler {
 				}
 				*/
 				String[] parts = cur_line.split(" ");
-				Word w = new Word(parts[0], parts[1]);
+				Word w;
+				if(parts.length > 1)w = new Word(parts[0], parts[1]);
+				else w = new Word(parts[0], "");
 				/*
 				if (w == null) {
 					System.out.println("null word pointer");
