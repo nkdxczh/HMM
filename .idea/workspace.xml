@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee004076-a2be-4b95-a027-7194e3c8732e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/HMM$1.class" afterPath="$PROJECT_DIR$/bin/HMM$1.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_0.9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/p2/prediction_1.0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run_java_big_para.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run_java_small.sh" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/HMM.class" afterPath="$PROJECT_DIR$/bin/HMM.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HMM.java" afterPath="$PROJECT_DIR$/src/HMM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.0.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.1.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.2.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.3.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.4.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.5.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.6.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.7.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.8.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_0.9.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_0.9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_1.0.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_1.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.4.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.5.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.6.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.7.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.8.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.9.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_concatenated_0.9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/p2/training_log_concatenated_1.0.txt" afterPath="$PROJECT_DIR$/results/p2/training_log_concatenated_1.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_java.sh" afterPath="$PROJECT_DIR$/run_java.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +49,7 @@
       <file leaf-file-name="FileHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
+            <state relative-caret-position="828">
               <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding />
             </state>
@@ -29,8 +59,8 @@
       <file leaf-file-name="HMM1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HMM1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3480">
-              <caret line="402" column="0" lean-forward="true" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="744" column="41" lean-forward="true" selection-start-line="744" selection-start-column="41" selection-end-line="744" selection-end-column="41" />
               <folding>
                 <element signature="method#HMM#0;class#HMM#0" expanded="false" />
                 <element signature="method#prepareMatrices#0;class#HMM#0" expanded="false" />
@@ -43,7 +73,6 @@
                 <element signature="method#forward#0;class#HMM#0" expanded="false" />
                 <element signature="method#backward#0;class#HMM#0" expanded="false" />
                 <element signature="method#viterbi#0;class#HMM#0" expanded="false" />
-                <element signature="method#main#0;class#HMM#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -52,7 +81,7 @@
       <file leaf-file-name="Evaluator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Evaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="342">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/run_java.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -173,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="54" />
     <option name="y" value="836" />
     <option name="width" value="1851" />
@@ -194,10 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +250,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,7 +373,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="836" width="1855" height="1084" extended-state="6" />
+    <frame x="54" y="836" width="1857" height="1092" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -383,14 +413,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
+    <entry file="file://$PROJECT_DIR$/src/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4824">
-          <caret line="275" column="16" lean-forward="false" selection-start-line="275" selection-start-column="16" selection-end-line="275" selection-end-column="16" />
+        <state relative-caret-position="828">
+          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Evaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/p1/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_java.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_java.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7236">
+          <caret line="402" column="0" lean-forward="true" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
+          <folding>
+            <element signature="method#HMM#0;class#HMM#0" expanded="false" />
+            <element signature="method#prepareMatrices#0;class#HMM#0" expanded="false" />
+            <element signature="method#mle#0;class#HMM#0" expanded="false" />
+            <element signature="method#predict#0;class#HMM#0" expanded="false" />
+            <element signature="method#outputPredictions#0;class#HMM#0" expanded="false" />
+            <element signature="method#outputTrainingLog#0;class#HMM#0" expanded="false" />
+            <element signature="method#expection#0;class#HMM#0" expanded="false" />
+            <element signature="class#MaximizationThread#0;class#HMM#0" expanded="false" />
+            <element signature="method#forward#0;class#HMM#0" expanded="false" />
+            <element signature="method#backward#0;class#HMM#0" expanded="false" />
+            <element signature="method#viterbi#0;class#HMM#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
     <entry file="file://$PROJECT_DIR$/src/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -462,14 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
     <entry file="file://$PROJECT_DIR$/src/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -499,14 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
     <entry file="file://$PROJECT_DIR$/src/Word.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -526,14 +626,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
     <entry file="file://$PROJECT_DIR$/src/Word.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -572,22 +665,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="533" column="16" lean-forward="false" selection-start-line="533" selection-start-column="14" selection-end-line="533" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
     <entry file="file://$PROJECT_DIR$/src/Word.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -607,14 +686,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
     <entry file="file://$PROJECT_DIR$/src/Word.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -696,14 +768,14 @@
     <entry file="file://$PROJECT_DIR$/run_java.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="342">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -711,17 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HMM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="362" column="47" lean-forward="true" selection-start-line="362" selection-start-column="47" selection-end-line="362" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HMM.java" />
     <entry file="file://$PROJECT_DIR$/src/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="828">
           <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
           <folding />
         </state>
@@ -729,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HMM1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="402" column="0" lean-forward="true" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="744" column="41" lean-forward="true" selection-start-line="744" selection-start-column="41" selection-end-line="744" selection-end-column="41" />
           <folding>
             <element signature="method#HMM#0;class#HMM#0" expanded="false" />
             <element signature="method#prepareMatrices#0;class#HMM#0" expanded="false" />
@@ -743,7 +808,6 @@
             <element signature="method#forward#0;class#HMM#0" expanded="false" />
             <element signature="method#backward#0;class#HMM#0" expanded="false" />
             <element signature="method#viterbi#0;class#HMM#0" expanded="false" />
-            <element signature="method#main#0;class#HMM#0" expanded="false" />
           </folding>
         </state>
       </provider>
